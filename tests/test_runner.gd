@@ -6,6 +6,10 @@ const DIR := "res://tests"
 
 
 func _ready() -> void:
+	_run.call_deferred()
+
+
+func _run() -> void:
 	GameClock.paused = true
 	Settings.autosave = false
 	Save.slot = "test"
@@ -31,6 +35,7 @@ func _ready() -> void:
 			var t0 := Time.get_ticks_msec()
 			t.call(method)
 			var ms := Time.get_ticks_msec() - t0
+			await get_tree().process_frame  # даём освободиться узлам, созданным тестом
 			if t.failures.is_empty():
 				print("  ok   %s::%s (%d мс)" % [file.get_basename(), method, ms])
 			else:
@@ -39,5 +44,6 @@ func _ready() -> void:
 				for f in t.failures:
 					print("         - " + f)
 	Save.delete_save()
+	await get_tree().process_frame
 	print("\nТестов: %d, упало: %d, время %.1f с" % [total, failed, (Time.get_ticks_msec() - started) / 1000.0])
 	get_tree().quit(1 if failed > 0 or total == 0 else 0)

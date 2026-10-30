@@ -1,5 +1,412 @@
 keys,en,ru
-UNIT_PER_SEC,/s,/с
+CHAPTER_CH0,Stone Age,Каменный век
+CHAPTER_CH1,Steam,Пар
+CHAPTER_CH2,LV,LV
+DBG_ERA,Open era,Открыть эпоху
+DBG_GIVE,Give item,Выдать предмет
+DBG_GIVE_BTN,Give,Выдать
+DBG_OFFLINE,Simulate offline (hours),Симулировать офлайн (часы)
+DBG_OFFLINE_BTN,Simulate,Симулировать
+DBG_SKIP_DAY,+1 game day,+1 игровые сутки
+DBG_SPEED,Time speed,Скорость времени
+DEMO_ALREADY,Demo complete — you can keep playing in sandbox mode.,Демо пройдено — можно продолжать играть.
+DEMO_BROKEN,Blocks broken by hand: %s,Блоков разбито руками: %s
+DEMO_CLICKS,Clicks: %s,Кликов: %s
+DEMO_CONTINUE,Keep playing,Продолжить играть
+DEMO_CRAFTED,Items crafted: %s,Предметов скрафчено: %s
+DEMO_END_TEXT,"Steel from the electric blast furnace and the first MV circuit — the MVP is complete! The MV era (chemistry, production lines) is next. Thank you for playing.",Сталь из электродуговой печи и первая MV-схема — MVP пройден! Дальше эпоха MV: химия и поточные линии. Спасибо за игру.
+DEMO_END_TITLE,End of the demo,Конец демо
+DEMO_PRODUCED,Produced the most,Больше всего произведено
+DEMO_TIME_ACTIVE,Active play: %s,Активная игра: %s
+DEMO_TIME_GAME,Game time: %s,Игровое время: %s
+DEMO_TOOLS,Tools broken: %d · repairs: %d,Сломано инструментов: %d · ремонтов: %d
+DESC_COAL_BOILER,"Burns coal, charcoal or coke from storage. Warms up for 30 s.","Сжигает уголь, древесный уголь или кокс из хранилища. Разогрев 30 с."
+DESC_CREOSOTE,Liquid fuel for the LV generator: 16 EU per litre.,Жидкое топливо для генератора LV: 16 EU за литр.
+DESC_MV_CIRCUIT,The key to the MV era — and the end of this demo.,Ключ к эпохе MV — и конец этого демо.
+DESC_SOLAR_BOILER,"Free steam, but only during the day.","Бесплатный пар, но только днём."
+DESC_STEAM_TURBINE_LV,2 L of steam = 1 EU. Your old steam keeps working.,2 L пара = 1 EU. Старая паровая инфраструктура не пропадает.
+DESC_STEEL_INGOT,The goal of this demo: made in the EBF.,Цель демо: выплавляется в EBF.
+DESC_WOODEN_COLLECTOR,Passive gatherer: 0.2 logs/s on a tree.,Пассивный добытчик: 0.2 бревна/с на дереве.
+DIM_OVERWORLD,Overworld,Оверворлд
+ENERGY_EU,EU,EU
+ENERGY_NONE,no energy,без энергии
+ENERGY_STEAM,steam,пар
+ERA_0,Era 0 · Stone Age,Эпоха 0 · Каменный век
+ERA_1,Era 1 · Steam,Эпоха 1 · Пар
+ERA_2,Era 2 · LV,Эпоха 2 · LV
+FEATURE_ZONE_ORE_HILLS,the Ore Hills zone,зону «Рудные холмы»
+FILTER_ALL,All,Все
+FILTER_ITEMS,Items,Предметы
+FILTER_LIQUIDS,Liquids,Жидкости
+FORM_DUST,%s Dust,Пыль %s
+FORM_INGOT,%s Ingot,Слиток %s
+FORM_ORE,%s Ore,Руда %s
+FORM_PLATE,%s Plate,Пластина %s
+FORM_ROD,%s Rod,Стержень %s
+FORM_WIRE,%s Wire,Провод %s
+GEN_BATTERY,%s / %s EU,%s / %s EU
+GEN_BOILER_ON,burning: %s L/t steam,горит: %s L/t пара
+GEN_FUEL_GEN,running: %s EU/t,работает: %s EU/t
+GEN_FUEL_LEFT,in the firebox: %s (%s),в топке: %s (%s)
+GEN_NO_FUEL,no fuel in storage,нет топлива в хранилище
+GEN_SOLAR_DAY,sunny: %s L/t,солнце: %s L/t
+GEN_SOLAR_NIGHT,night — idle,ночь — стоит
+GEN_TURBINE,%s / %s EU/t,%s / %s EU/t
+GEN_WARMING,warming up: %d s,разогрев: %d с
+GOAL_AT,in %s,в станции «%s»
+GOAL_BREAK,Break %s ×%d,Разбить: %s ×%d
+GOAL_CHECKBOX,Read and mark,Прочитать и отметить
+GOAL_CRAFT,Craft %s ×%d,Скрафтить: %s ×%d
+GOAL_HAVE,Have %s ×%d at once,Иметь одновременно: %s ×%d
+GOAL_OBTAIN,Obtain %s ×%d,Получить: %s ×%d
+HINT_ANVIL,Anvil opened (key 5): repair tools before they break.,Открыта наковальня (клавиша 5): чини инструменты до поломки.
+HINT_CLICK_BLOCK,Click the block. Hold the button — 5 clicks per second.,Кликай по блоку. Зажми кнопку — 5 кликов в секунду.
+HINT_CLICK_TREE,↓ Click the tree,↓ Кликни по дереву
+HINT_HAND_CRAFT,Hand crafting is in Storage: turn logs into planks and build a workbench.,Ручной крафт — в хранилище: сделай доски и верстак.
+HINT_MINERS,Miners! Select a block on the map and place a miner into its cell.,Майнеры! Выбери блок на карте и поставь майнер в его ячейку.
+HINT_ORE_HILLS,The Ore Hills are open: mixed veins that shift every game day.,"Открыты Рудные холмы: смешанные жилы, которые меняются каждые игровые сутки."
+HINT_POWER,Power grid opened (key 6): boilers burn fuel from storage.,Открыта энергосеть (клавиша 6): котлы жгут топливо из хранилища.
+HINT_QUESTS,Quests opened (key 4): they show the way forward. Claim your rewards!,Открыты квесты (клавиша 4): они показывают путь. Забери награды!
+HINT_STATIONS,Stations opened (key 3): the workbench makes tools.,Открыты станции (клавиша 3): на верстаке делаются инструменты.
+HINT_STORAGE,Storage opened (key 2): everything you get goes here.,Открыто хранилище (клавиша 2): всё добытое попадает сюда.
+ITEM_ANVIL,Anvil,Наковальня
+ITEM_BATTERY_BUFFER_LV,LV Battery Buffer,Батарейный блок LV
+ITEM_BATTERY_LV,LV Battery,Батарея LV
+ITEM_BRICK,Brick,Кирпич
+ITEM_BRICK_BLAST_FURNACE,Brick Blast Furnace,Кирпичная домна
+ITEM_BRONZE_CASING,Bronze Casing,Бронзовый корпус
+ITEM_CHARCOAL,Charcoal,Древесный уголь
+ITEM_CIRCUIT_BOARD,Circuit Board,Монтажная плата
+ITEM_CLAY_BALL,Clay,Глина
+ITEM_COAL,Coal,Уголь
+ITEM_COAL_BOILER,Solid Fuel Boiler,Котёл на твёрдом топливе
+ITEM_COAL_DUST,Coal Dust,Угольная пыль
+ITEM_COBBLESTONE,Cobblestone,Булыжник
+ITEM_COKE,Coke,Кокс
+ITEM_COKE_OVEN,Coke Oven,Коксовая печь
+ITEM_COMBUSTION_GEN_LV,LV Liquid Fuel Generator,Генератор на жидком топливе LV
+ITEM_CREOSOTE,Creosote,Креозот
+ITEM_CUPRONICKEL_COIL,Cupronickel Coil,Купроникелевая катушка
+ITEM_EBF_CONTROLLER,EBF Controller,Контроллер EBF
+ITEM_ELECTRIC_MOTOR,LV Electric Motor,Электромотор LV
+ITEM_ELECTRIC_PISTON,LV Electric Piston,Электропоршень LV
+ITEM_FIREBRICK,Firebrick,Огнеупорный кирпич
+ITEM_FLINT,Flint,Кремень
+ITEM_FURNACE,Furnace,Печь
+ITEM_GLASS,Glass,Стекло
+ITEM_GOOD_BOARD,Good Circuit Board,Улучшенная плата
+ITEM_HEATPROOF_CASING,Heat Proof Casing,Термостойкий корпус
+ITEM_LOG,Log,Бревно
+ITEM_LV_ALLOY_SMELTER,LV Alloy Smelter,Сплавочная печь LV
+ITEM_LV_ASSEMBLER,LV Assembler,Сборочный станок LV
+ITEM_LV_CENTRIFUGE,LV Centrifuge,Центрифуга LV
+ITEM_LV_CIRCUIT,Basic Circuit (LV),Простая схема (LV)
+ITEM_LV_COMPRESSOR,LV Compressor,Компрессор LV
+ITEM_LV_DRILL,LV Drill,Бур LV
+ITEM_LV_ELECTROLYZER,LV Electrolyzer,Электролизёр LV
+ITEM_LV_ENERGY_HATCH,LV Energy Hatch,Энергоприёмник LV
+ITEM_LV_EXTRACTOR,LV Extractor,Экстрактор LV
+ITEM_LV_FORGE_HAMMER,LV Forge Hammer,Кузнечный молот LV
+ITEM_LV_HULL,LV Machine Hull,Корпус машины LV
+ITEM_LV_INPUT_BUS,LV Input Bus,Входной люк LV
+ITEM_LV_MACERATOR,LV Macerator,Дробилка LV
+ITEM_LV_OUTPUT_BUS,LV Output Bus,Выходной люк LV
+ITEM_LV_WIREMILL,LV Wiremill,Волочильный станок LV
+ITEM_MV_CIRCUIT,Good Circuit (MV),Хорошая схема (MV)
+ITEM_OXYGEN,Oxygen,Кислород
+ITEM_PLANKS,Planks,Доски
+ITEM_RAW_RUBBER,Raw Rubber,Сырой каучук
+ITEM_RESISTOR,Resistor,Резистор
+ITEM_RUBBER_PLATE,Rubber Sheet,Резиновый лист
+ITEM_SAND,Sand,Песок
+ITEM_SOLAR_BOILER,Solar Boiler,Солнечный котёл
+ITEM_STEAM_COMPRESSOR,Steam Compressor,Паровой компрессор
+ITEM_STEAM_DRILL,Steam Drill,Паровой бур
+ITEM_STEAM_EXTRACTOR,Steam Extractor,Паровой экстрактор
+ITEM_STEAM_FORGE_HAMMER,Steam Forge Hammer,Паровой кузнечный молот
+ITEM_STEAM_MACERATOR,Steam Macerator,Паровая дробилка
+ITEM_STEAM_TURBINE_LV,LV Steam Turbine,Паровая турбина LV
+ITEM_STICK,Stick,Палка
+ITEM_STICKY_RESIN,Sticky Resin,Липкая смола
+ITEM_TIN_CABLE,Tin Cable,Оловянный кабель
+ITEM_VACUUM_TUBE,Vacuum Tube,Вакуумная лампа
+ITEM_WATER,Water,Вода
+ITEM_WOODEN_COLLECTOR,Wooden Collector,Деревянный сборщик
+ITEM_WORKBENCH,Workbench,Верстак
+MAT_BRONZE,Bronze,бронза
+MAT_BRONZE_GEN,Bronze,бронзы
+MAT_COAL,Coal,уголь
+MAT_COAL_GEN,Coal,угля
+MAT_COPPER,Copper,медь
+MAT_COPPER_GEN,Copper,меди
+MAT_CUPRONICKEL,Cupronickel,купроникель
+MAT_CUPRONICKEL_GEN,Cupronickel,купроникеля
+MAT_IRON,Iron,железо
+MAT_IRON_GEN,Iron,железа
+MAT_NICKEL,Nickel,никель
+MAT_NICKEL_GEN,Nickel,никеля
+MAT_RUBBER,Rubber,резина
+MAT_RUBBER_GEN,Rubber,резины
+MAT_STEEL,Steel,сталь
+MAT_STEEL_GEN,Steel,стали
+MAT_STONE,stone,камень
+MAT_STONE_GEN,stone,камня
+MAT_TIN,Tin,олово
+MAT_TIN_GEN,Tin,олова
+MAT_WOOD,wood,дерево
+MAT_WOOD_GEN,wood,дерева
+MAT_WROUGHT_IRON,Wrought Iron,кованое железо
+MAT_WROUGHT_IRON_GEN,Wrought Iron,кованого железа
+NODE_CLAY_PIT,Clay pit,Глиняный карьер
+NODE_COAL_OUTCROP,Coal outcrop,Выход угля
+NODE_COPPER_OUTCROP,Copper outcrop,Выход меди
+NODE_HILLS_A,Ore Hills · north,Рудные холмы · север
+NODE_HILLS_B,Ore Hills · east,Рудные холмы · восток
+NODE_HILLS_C,Ore Hills · south,Рудные холмы · юг
+NODE_RUBBER_TREE,Rubber tree,Каучуковое дерево
+NODE_SAND,Sand bank,Песчаный берег
+NODE_SPRING,Spring,Родник
+NODE_STONE,Stone,Камень
+NODE_TREE,Tree,Дерево
+NODE_ZONE_ORE_HILLS,Ore Hills,Рудные холмы
+NOTIFY_VEINS_CHANGED,A new day: the Ore Hills veins have shifted.,Новый день: жилы в Рудных холмах сместились.
+NUMFMT_FULL,Full (1 234),Полностью (1 234)
+NUMFMT_SCI,Scientific (1.23e3),Научная (1.23e3)
+NUMFMT_SHORT,Short scale (1.23K),Короткая шкала (1.23K)
+NUMFMT_SI,SI (1.23k),СИ (1.23k)
+OFFLINE_CAPPED,Only the first %s counted (offline limit).,Засчитано только %s (лимит офлайна).
+OFFLINE_CRAFTED,Crafted,Скрафчено
+OFFLINE_GAINED,Collected,Добыто и получено
+OFFLINE_STOPS,Where the factory stopped,Где фабрика остановилась
+OFFLINE_TITLE,While you were away: %s,Пока вас не было: %s
+QUEST_Q0_BREAK_STONE,Stone breaker,Каменотёс
+QUEST_Q0_BREAK_STONE_DESC,"Break stone ten times. Notice: durability drops per broken block, not per click.","Разбей камень десять раз. Заметь: прочность тратится за разбитый блок, а не за клик."
+QUEST_Q0_CHARCOAL,Charcoal,Древесный уголь
+QUEST_Q0_CHARCOAL_DESC,Smelt logs into charcoal. It is fuel — and carbon for iron later on.,Пережги брёвна в древесный уголь. Это топливо — и углерод для железа в будущем.
+QUEST_Q0_COAL,Black gold,Чёрное золото
+QUEST_Q0_COAL_DESC,"Mine the coal outcrop. Coal feeds the coke oven and, later, the boilers.","Добудь уголь. Он нужен коксовой печи, а позже — котлам."
+QUEST_Q0_COKE_OVEN,Coke oven,Коксовая печь
+QUEST_Q0_COKE_OVEN_DESC,"Bricks and sand make a coke oven: coke burns twice as long, and creosote is a liquid fuel.","Кирпичи и песок — коксовая печь: кокс горит вдвое дольше, а креозот — жидкое топливо."
+QUEST_Q0_COPPER,Copper,Медь
+QUEST_Q0_COPPER_DESC,Smelt copper ore into ingots: the anvil is made of copper.,Переплавь медную руду в слитки: из меди делается наковальня.
+QUEST_Q0_FIRST_LOG,First log,Первое бревно
+QUEST_Q0_FIRST_LOG_DESC,Everything starts with wood. Click the tree on the island.,Всё начинается с дерева. Кликни по дереву на острове.
+QUEST_Q0_FURNACE,Fire,Огонь
+QUEST_Q0_FURNACE_DESC,"Eight cobblestones make a furnace: charcoal, bricks and glass.","Восемь булыжников — и у тебя печь: древесный уголь, кирпичи и стекло."
+QUEST_Q0_GATE,The end of the Stone Age,Конец каменного века
+QUEST_Q0_GATE_DESC,Craft an anvil and a coke oven. Hands get tired — it is time for steam.,Скрафти наковальню и коксовую печь. Руки устают — пора переходить на пар.
+QUEST_Q0_INTERN,The intern,Стажёр
+QUEST_Q0_INTERN_DESC,Hoard 32 logs at once and you get a wooden collector — your first passive gatherer. Place it into the tree cell.,"Накопи 32 бревна разом — получишь деревянного сборщика, первого пассивного добытчика. Поставь его в ячейку дерева."
+QUEST_Q0_STONE_PICK,Stone pickaxe,Каменная кирка
+QUEST_Q0_STONE_PICK_DESC,Upgrade: old pickaxe + 3 cobblestone. Coal and copper outcrops need stone tools.,Апгрейд: старая кирка + 3 булыжника. Выходы угля и меди требуют каменного инструмента.
+QUEST_Q0_TOOLS_BOOK,Tools 101,Азбука инструментов
+QUEST_Q0_TOOLS_BOOK_DESC,"Each block wants its tool: pickaxe for stone, axe for wood, shovel for clay and sand. The wrong tool hits at 25%. A broken tool returns half of its head. Hold the mouse button to click 5 times per second; catch the spark for ×5 damage.","Каждому блоку свой инструмент: кирка — камню, топор — дереву, лопата — глине и песку. Чужой бьёт на 25%. Сломанный инструмент возвращает половину головки. Зажми кнопку мыши — 5 кликов в секунду; лови искру — урон ×5."
+QUEST_Q0_WOOD_PICK,Wooden pickaxe,Деревянная кирка
+QUEST_Q0_WOOD_PICK_DESC,Stone does not yield to bare hands. A wooden pickaxe will reveal the stone on the map.,Камень не поддаётся рукам. Деревянная кирка откроет на карте камень.
+QUEST_Q0_WORKBENCH,A workbench,Верстак
+QUEST_Q0_WORKBENCH_DESC,Hand crafting is slow. Make planks and a workbench (Storage → Hand crafting).,Руками крафтить долго. Сделай доски и верстак (Хранилище → Ручной крафт).
+QUEST_Q1_BBF,Brick blast furnace,Кирпичная домна
+QUEST_Q1_BBF_DESC,"Firebricks make a blast furnace: bronze without dust, wrought iron from iron and carbon.",Из огнеупорного кирпича — домна: бронза без пыли и кованое железо из железа и углерода.
+QUEST_Q1_BOILER,Steam,Пар
+QUEST_Q1_BOILER_DESC,A solid fuel boiler burns coal from storage. Choose your reward: fuel or a second boiler kit.,Котёл на твёрдом топливе жжёт уголь из хранилища. Выбери награду: топливо или набор для второго котла.
+QUEST_Q1_BRONZE,Bronze age,Бронзовый век
+QUEST_Q1_BRONZE_DESC,"Grind copper and tin ingots into dust at the workbench, mix 3:1 and smelt.","Разотри слитки меди и олова в пыль на верстаке, смешай 3:1 и переплавь."
+QUEST_Q1_BRONZE_PICK,Bronze pickaxe,Бронзовая кирка
+QUEST_Q1_BRONZE_PICK_DESC,Upgrade your pickaxe at the anvil: the iron veins need bronze.,Улучши кирку на наковальне: железным жилам нужна бронза.
+QUEST_Q1_DRILL,Steam drill,Паровой бур
+QUEST_Q1_DRILL_DESC,Clicking is over: a steam drill mines a block by itself. Feed your boilers automatically — put a drill on coal!,Хватит кликать: паровой бур добывает сам. Автоматизируй снабжение котлов — поставь бур на уголь!
+QUEST_Q1_GATE,Electricity,Электричество
+QUEST_Q1_GATE_DESC,Craft your first LV machine. The steam turbine is a great start: 2 L of steam = 1 EU.,Скрафти первую LV-машину. Паровая турбина — отличный старт: 2 L пара = 1 EU.
+QUEST_Q1_LV_CIRCUIT,The first circuit,Первая схема
+QUEST_Q1_LV_CIRCUIT_DESC,"Board, resistors, vacuum tubes and cables. Circuits are the brains of electric machines.","Плата, резисторы, лампы и кабели. Схемы — мозги электрических машин."
+QUEST_Q1_MINERS,Mining crew,Бригада
+QUEST_Q1_MINERS_DESC,Place four miners. The vein size limits miners per cell.,Поставь четыре майнера. Размер жилы ограничивает число майнеров в ячейке.
+QUEST_Q1_ORE_HILLS,The Ore Hills,Рудные холмы
+QUEST_Q1_ORE_HILLS_DESC,East of the island lie the Ore Hills. Their veins are mixed and shift every game day (20 minutes) — check the map daily.,На востоке острова — Рудные холмы. Жилы там смешанные и меняются каждые игровые сутки (20 минут) — заглядывай на карту каждый день.
+QUEST_Q1_RUBBER,Rubber,Резина
+QUEST_Q1_RUBBER_DESC,Rubber trees drip sticky resin. Extract raw rubber and press it into sheets — cables need insulation.,Каучуковое дерево даёт липкую смолу. Экстрагируй каучук и спрессуй в листы — кабелям нужна изоляция.
+QUEST_Q1_STEAM_BOOK,How steam works,Как работает пар
+QUEST_Q1_STEAM_BOOK_DESC,"Boilers warm up for 30 s, then produce steam into a shared buffer. Steam machines drink from it. If steam runs out, every machine slows down proportionally — nothing is lost. Keep the boilers fed!","Котлы 30 с разогреваются, потом дают пар в общий буфер. Паровые машины пьют из него. Если пара не хватает, все машины замедляются пропорционально — прогресс не теряется. Корми котлы!"
+QUEST_Q1_STEAM_GEN,More pressure,Больше давления
+QUEST_Q1_STEAM_GEN_DESC,Reach 24 L/t of steam generation.,Доведи генерацию пара до 24 L/t.
+QUEST_Q1_STEAM_MACHINE,First steam machine,Первая паровая машина
+QUEST_Q1_STEAM_MACHINE_DESC,Bronze casing + parts = a steam machine. A macerator doubles ore: 1 ore → 2 dust.,Бронзовый корпус + детали = паровая машина. Дробилка удваивает руду: 1 руда → 2 пыли.
+QUEST_Q1_TIN,Tin,Олово
+QUEST_Q1_TIN_DESC,Find tin ore in the hills. Copper + tin = bronze.,Найди оловянную руду в холмах. Медь + олово = бронза.
+QUEST_Q1_WROUGHT,Wrought iron,Кованое железо
+QUEST_Q1_WROUGHT_DESC,Wrought iron is the frame of every LV machine.,Кованое железо — каркас каждой LV-машины.
+QUEST_Q2_ALLOY,Cupronickel,Купроникель
+QUEST_Q2_ALLOY_DESC,The alloy smelter fuses copper and nickel: the material of heating coils.,Сплавочная печь сплавляет медь и никель: материал нагревательных катушек.
+QUEST_Q2_ASSEMBLER,Assembler,Сборочный станок
+QUEST_Q2_ASSEMBLER_DESC,The assembler builds circuits cheaper and faster than the workbench.,Сборочный станок делает схемы дешевле и быстрее верстака.
+QUEST_Q2_BATTERY,Battery buffer,Батарейный блок
+QUEST_Q2_BATTERY_DESC,"400k EU of storage: surplus steam charges it, deficits drain it.","400k EU в запасе: излишки пара заряжают, дефицит разряжает."
+QUEST_Q2_COILS,Coils,Катушки
+QUEST_Q2_COILS_DESC,Sixteen cupronickel coils will heat the furnace to 1801 K.,Шестнадцать купроникелевых катушек разогреют печь до 1801 K.
+QUEST_Q2_DEMO_END,Steel and circuits,Сталь и схемы
+QUEST_Q2_DEMO_END_DESC,Steel from the EBF and an MV circuit — the gate to the MV era. This is the end of the demo!,Сталь из EBF и MV-схема — ворота в эпоху MV. Это конец демо!
+QUEST_Q2_EBF,Electric blast furnace,Электродуговая печь
+QUEST_Q2_EBF_DESC,"Install the controller, casings, coils, buses and an energy hatch. The EBF is a multiblock.","Установи контроллер, корпуса, катушки, люки и энергоприёмник. EBF — мультиблок."
+QUEST_Q2_MV_CIRCUIT,Good circuit,Хорошая схема
+QUEST_Q2_MV_CIRCUIT_DESC,A steel-based board and two basic circuits make the first MV circuit.,Плата на стали и две простые схемы — первая MV-схема.
+QUEST_Q2_NICKEL,Nickel,Никель
+QUEST_Q2_NICKEL_DESC,Nickel lives in the iron-nickel vein (and as a byproduct of iron ore). Watch the daily veins!,Никель — в железо-никелевой жиле (и побочкой из железной руды). Следи за жилами!
+QUEST_Q2_POWER_BOOK,The power grid,Энергосеть
+QUEST_Q2_POWER_BOOK_DESC,"Generators feed one shared grid, batteries smooth the peaks. When demand exceeds supply and the batteries are empty, the whole factory slows down at once. The Power grid tab shows who eats the most.","Генераторы питают общую сеть, батареи сглаживают пики. Если потребление больше генерации, а батареи пусты, замедляется сразу вся фабрика. Вкладка «Энергосеть» покажет, кто ест больше всех."
+QUEST_Q2_STEEL,Steel,Сталь
+QUEST_Q2_STEEL_DESC,Iron dust + coal dust at 1000 K and 30 EU/t. Steel — the metal of the next era.,Железная пыль + угольная пыль при 1000 K и 30 EU/t. Сталь — металл следующей эпохи.
+QUEST_Q2_TURBINE,Turbine,Турбина
+QUEST_Q2_TURBINE_DESC,A steam turbine turns your old steam into EU. Machines run on EU/t from now on.,Паровая турбина превращает старый пар в EU. Теперь машины едят EU/t.
+QUEST_Q2_WIREMILL,Wiremill,Волочильный станок
+QUEST_Q2_WIREMILL_DESC,One ingot → two wires. Coils need a lot of cupronickel wire.,Один слиток → два провода. Катушкам нужно много купроникелевого провода.
+REASON_HEAT,Coils are not hot enough,Катушки недостаточно горячие
+REASON_MINER_TIER,This miner cannot mine this block,Этот майнер не добывает этот блок
+REASON_NO_ANVIL,Build an anvil first,Сначала постройте наковальню
+REASON_NO_ITEM,No miners in storage,Нет майнеров в хранилище
+REASON_NO_STATION,Station is not built,Станция не построена
+REASON_UNKNOWN,Unknown,Неизвестно
+REASON_VEIN_FULL,The vein is full,Жила заполнена
+REASON_VOLTAGE,Voltage too low for this recipe,Слишком низкое напряжение для рецепта
+SET_AUTOSAVE,Autosave every 60 s,Автосохранение раз в 60 с
+SET_EXPORT,Export (copy),Экспорт (в буфер)
+SET_EXPORTED,Save string copied to clipboard.,Строка сейва скопирована в буфер обмена.
+SET_EXPORT_HINT,Paste a save string here to import,Вставьте сюда строку сейва для импорта
+SET_HOTKEYS,Hotkeys: 1–7 tabs · Esc close · F12 debug · hold LMB on a block = 5 clicks/s · Shift/Ctrl + Craft = ×10 / max,Клавиши: 1–7 вкладки · Esc закрыть · F12 debug · зажать ЛКМ на блоке = 5 кликов/с · Shift/Ctrl + «Крафт» = ×10 / максимум
+SET_IMPORT,Import,Импорт
+SET_IMPORTED,Imported.,Импортировано.
+SET_IMPORT_FAILED,Not a valid save string.,Это не строка сейва.
+SET_LANGUAGE,Language,Язык
+SET_NEW_GAME,New game,Новая игра
+SET_NEW_GAME_CONFIRM,Delete the save and start over?,Удалить сейв и начать заново?
+SET_NEW_GAME_YES,"Yes, start over","Да, начать заново"
+SET_NUMBER_FORMAT,Number format,Формат чисел
+SET_REDUCE_ANIM,Reduce animations,Уменьшить анимации
+SET_SAVED,Saved.,Сохранено.
+SET_SAVE_FAILED,Save failed!,Не удалось сохранить!
+SET_SAVE_NOW,Save now,Сохранить
+SET_VOLUME,Volume,Громкость
+SORT_COUNT,By amount,По количеству
+SORT_ERA,By era,По эпохе
+SORT_INCOME,By income,По доходу
+SORT_NAME,By name,По имени
+STATION_EBF,Electric Blast Furnace,Электродуговая печь (EBF)
+STATION_HAND,Hand crafting,Ручной крафт
+STATUS_IDLE,idle,простаивает
+STATUS_NOT_BUILT,not built,не собрана
+STATUS_NO_POWER,no energy,нет энергии
+STATUS_SLOW,energy deficit,дефицит энергии
+STATUS_WORKING,working,работает
+STAT_EBF_BUILT,Build EBF ×%d,Собрать EBF ×%d
+STAT_EU_GEN,EU generation ≥ %d EU/t,Генерация EU ≥ %d EU/t
+STAT_MINERS,Miners placed ≥ %d,Майнеров установлено ≥ %d
+STAT_STEAM_GEN,Steam generation ≥ %d L/t,Генерация пара ≥ %d L/t
+STOP_DEFICIT,Energy deficit slowed the factory,Дефицит энергии замедлил фабрику
+STOP_NO_FUEL,%s ran out of fuel,%s: кончилось топливо
+STOP_QUEUE_DONE,%s finished its queue,%s: очередь закончилась
+TAB_ANVIL,Anvil,Наковальня
+TAB_MAP,Map,Карта
+TAB_POWER,Power grid,Энергосеть
+TAB_QUESTS,Quests,Квесты
+TAB_SETTINGS,Settings,Настройки
+TAB_STATIONS,Stations,Станции
+TAB_STORAGE,Storage,Хранилище
+TAG_LV_MACHINE,any LV machine,любая LV-машина
+TAG_STEAM_MACHINE,any steam machine,любая паровая машина
+TOAST_DEFICIT,Energy deficit: the factory runs at %d%%,Дефицит энергии: фабрика работает на %d%%
+TOAST_ERA,New era: %s,Новая эпоха: %s
+TOAST_NEW_RECIPES,New recipes discovered (yellow star on Stations).,Открыты новые рецепты (жёлтая звезда на «Станциях»).
+TOAST_QUEST_DONE,Quest complete: %s — claim the reward!,Квест выполнен: %s — заберите награду!
+TOAST_REWARD,Reward claimed: %s,Награда получена: %s
+TOAST_TOOL_BROKEN,%s broke! Half of the head material returned.,%s сломался! Вернулась половина материала головки.
+TOAST_TOOL_WORN,%s: %d%% durability left,%s: осталось %d%% прочности
+TOOL_ANY,any tool,любой инструмент
+TOOL_AXE,Axe,Топор
+TOOL_PICKAXE,Pickaxe,Кирка
+TOOL_SHOVEL,Shovel,Лопата
+UI_ANVIL_HINT,Repair cost = lost share × head cost × 0.6. Tool upgrades (old tool + material) are crafted at the anvil station.,Стоимость ремонта = утраченная доля × стоимость головки × 0.6. Апгрейды инструментов (старый + материал) крафтятся на станции «Наковальня».
+UI_ANY,any,любая
+UI_BLOCK_HP,Block health,Прочность блока
+UI_BUILD_PROGRESS,built %d%%,собрано %d%%
+UI_BUY,Buy,Купить
+UI_CANCEL_QUEUE,Cancel queue,Отменить очередь
+UI_CHAPTERS,Chapters,Главы
+UI_CHART,"Charge, last 10 minutes",Заряд за последние 10 минут
+UI_CHART_BATTERY,batteries,батареи
+UI_CHART_EMPTY,Collecting data…,Собираю данные…
+UI_CHART_STEAM,steam buffer,буфер пара
+UI_CLAIM,Claim reward,Забрать награду
+UI_CLAIMED,Reward claimed,Награда получена
+UI_CLICK_BOOST,Click: −0.2 s,Клик: −0.2 с
+UI_CLOCK,Day %d · %02d:%02d,День %d · %02d:%02d
+UI_CONSUMERS,Biggest consumers,Крупнейшие потребители
+UI_CRAFT,Craft,Крафт
+UI_CRAFT_HINT,"Shift — ×10, Ctrl — max","Shift — ×10, Ctrl — максимум"
+UI_DEFICIT_ICON,Energy deficit: machines are slowed,Дефицит энергии: машины замедлены
+UI_DROPS,Drops,Дроп
+UI_ENERGY,Energy: %s %s,Энергия: %s %s
+UI_FROM_MINERS,From miners,От майнеров
+UI_FUEL_AUTO,Fuel: auto (coal/coke),Топливо: авто (уголь/кокс)
+UI_GENERATORS,Generators,Генераторы
+UI_GOALS,Goals,Цели
+UI_HANDS,bare hands,руки
+UI_HAND_CRAFT,Hand crafting,Ручной крафт
+UI_HAVE,have,есть
+UI_HEAT,Coil temperature: %d K,Температура катушек: %d K
+UI_HIDDEN_QUESTS,+%d hidden,+%d скрытых
+UI_INCOME,Income (10 s avg),Доход (среднее за 10 с)
+UI_INPUTS,Inputs,Входы
+UI_INSTALL,Install,Установить
+UI_IN_STORAGE,In storage,В хранилище
+UI_MARK_READ,Mark as read,Отметить прочитанным
+UI_MAX,Max,Макс
+UI_MINE,mine,добыча
+UI_MINER_CELL,Miner cell,Ячейка майнера
+UI_MINER_EMPTY,empty,пусто
+UI_MINER_HINT,%s damage/s · energy: %s,%s урона/с · энергия: %s
+UI_MINER_PLACE,Place %s (%d),Поставить: %s (%d)
+UI_MINER_RATE,%s blocks/s,%s блоков/с
+UI_MINER_REMOVE,Remove one,Снять один
+UI_MINING_WITH,Tool: %s · %d clicks per block,Инструмент: %s · %d кликов на блок
+UI_MULTIBLOCK,Multiblock assembly: install every part,Сборка мультиблока: установите все детали
+UI_NEEDS_HEAT,needs %d K,нужно %d K
+UI_NEED_TOOL,Locked: needs %s of tier «%s» or better,Закрыто: нужна %s уровня «%s» или выше
+UI_NEW_RECIPES,New recipes,Новые рецепты
+UI_NOTHING,— nothing yet —,— пока ничего —
+UI_NO_TOOL,%s — none,%s — нет
+UI_OK,OK,ОК
+UI_OUTPUTS,Outputs,Выходы
+UI_OVERCLOCK,overclock ×%d,оверклок ×%d
+UI_POWER_SUMMARY,Steam +%s / −%s L/t   ·   EU +%s / −%s EU/t   ·   factory speed %d%%,Пар +%s / −%s L/t   ·   EU +%s / −%s EU/t   ·   скорость фабрики %d%%
+UI_QUEST_MAIN,Main quest (gold frame),Главный квест (золотая рамка)
+UI_QUEST_OPTIONAL,Optional (silver frame),Опциональный (серебряная рамка)
+UI_QUEST_SELECT,Select a quest.,Выберите квест.
+UI_QUEUE,queue: %d,очередь: %d
+UI_REPAIR_25,Repair +25%,Ремонт +25%
+UI_REPAIR_FULL,Repair to full,До полного
+UI_REWARDS,Rewards,Награды
+UI_REWARD_CHOICE,Choose one:,Выберите одно:
+UI_REWARD_DEMO_END,The end of the demo!,Конец демо!
+UI_REWARD_ERA,Opens %s,Открывает: %s
+UI_REWARD_UNLOCK,Unlocks: %s,Открывает: %s
+UI_RMB_LOOKUP,RMB — where to get / where used,ПКМ — где добыть / где используется
+UI_SEARCH,Search…,Поиск…
+UI_SEARCH_HINT,"Search: name, #tag, @dimension","Поиск: имя, #тег, @измерение"
+UI_SHOW_CONSUMERS,Show consumers,Показать потребителей
+UI_STATIONS_HINT,Click a card to open the station. Click the progress bar of a working station to speed it up.,Клик по карточке — окно станции. Клик по полосе прогресса работающей станции ускоряет крафт.
+UI_TIME,Time: %s s,Время: %s с
+UI_UNKNOWN_HINT,Get every input at least once to reveal this recipe.,"Получите каждый вход хотя бы раз, чтобы открыть рецепт."
+UI_UNKNOWN_INPUTS,missing %d unknown resource(s),не хватает неизвестных ресурсов: %d
+UI_UPGRADES,Global upgrades (all instances),Глобальные улучшения (все экземпляры)
+UI_WHERE_GET,Where to get,Где добыть
+UI_WHERE_USED,Where used,Где используется
 UNIT_HOURS,h,ч
 UNIT_MINUTES,min,мин
+UNIT_PER_SEC,/s,/с
 UNIT_SECONDS,s,с
+UNIT_STEAM,L/t steam,L/t пара
+UPGRADE_EFFICIENCY,Energy efficiency −5%% EU/lvl: %d / %d,Энергоэффективность −5%% EU/ур.: %d / %d
+UPGRADE_SPEED,Speed +10%%/lvl: %d / %d,Скорость +10%%/ур.: %d / %d
+VEIN_VEIN_COAL,coal vein,угольная жила
+VEIN_VEIN_COPPER_TIN,copper-tin vein,медно-оловянная жила
+VEIN_VEIN_IRON_NICKEL,iron-nickel vein,железо-никелевая жила
+VEIN_VEIN_TIN_IRON,cassiterite-iron vein,касситерито-железная жила

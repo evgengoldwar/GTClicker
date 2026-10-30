@@ -41,3 +41,22 @@ func test_generated_items_and_recipes() -> void:
 	eq(up.inputs[0]["item"], "tool_pickaxe_wrought_iron", "апгрейд = старый инструмент + материал")
 	check(Registry.used_in["coal"].has("bbf_wrought_iron"), "индекс «где используется» раскрывает теги")
 	check(Registry.dropped_by["tin_ore"].has("vein_tin_iron"), "индекс «где добыть»")
+
+
+func test_translations_cover_content() -> void:
+	for locale in ["ru", "en"]:
+		TranslationServer.set_locale(locale)
+		for id: String in Registry.item_order:
+			check(Registry.item_name(id) != id and not Registry.item_name(id).contains("ITEM_"), "%s: нет имени для %s" % [locale, id])
+		for qid: String in Registry.quest_order:
+			var q := Registry.quest(qid)
+			check(TranslationServer.translate(q.title_key()) != q.title_key(), "%s: нет заголовка квеста %s" % [locale, qid])
+			check(TranslationServer.translate(q.desc_key()) != q.desc_key(), "%s: нет описания квеста %s" % [locale, qid])
+		for nid: String in Registry.node_order:
+			check(Registry.node_name(nid) != "NODE_" + nid.to_upper(), "%s: нет имени блока %s" % [locale, nid])
+		for vid: String in Registry.vein_order:
+			check(TranslationServer.translate("VEIN_" + vid.to_upper()) != "VEIN_" + vid.to_upper(), "%s: нет имени жилы %s" % [locale, vid])
+		for f: Dictionary in Registry.features:
+			if f.has("hint"):
+				check(TranslationServer.translate(f["hint"]) != f["hint"], "%s: нет подсказки %s" % [locale, f["hint"]])
+	TranslationServer.set_locale(Settings.language)
