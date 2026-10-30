@@ -1,0 +1,334 @@
+{
+	"recipes": [
+		{
+			"id": "lm_coal_dust",
+			"station": "lv_macerator",
+			"inputs": [
+				{
+					"item": "coal",
+					"n": 1
+				}
+			],
+			"outputs": [
+				{
+					"item": "coal_dust",
+					"n": 1
+				}
+			],
+			"ticks": 60,
+			"eu": 8
+		},
+		{
+			"id": "lm_sand",
+			"station": "lv_macerator",
+			"inputs": [
+				{
+					"item": "cobblestone",
+					"n": 1
+				}
+			],
+			"outputs": [
+				{
+					"item": "sand",
+					"n": 1
+				}
+			],
+			"ticks": 60,
+			"eu": 8
+		},
+		{
+			"id": "lc_rubber_plate",
+			"station": "lv_compressor",
+			"inputs": [
+				{
+					"item": "raw_rubber",
+					"n": 1
+				}
+			],
+			"outputs": [
+				{
+					"item": "rubber_plate",
+					"n": 1
+				}
+			],
+			"ticks": 100,
+			"eu": 8
+		},
+		{
+			"id": "le_rubber",
+			"station": "lv_extractor",
+			"inputs": [
+				{
+					"item": "sticky_resin",
+					"n": 1
+				}
+			],
+			"outputs": [
+				{
+					"item": "raw_rubber",
+					"n": 3
+				}
+			],
+			"ticks": 160,
+			"eu": 8
+		},
+		{
+			"id": "la_bronze",
+			"station": "lv_alloy_smelter",
+			"inputs": [
+				{
+					"item": "copper_ingot",
+					"n": 3
+				},
+				{
+					"item": "tin_ingot",
+					"n": 1
+				}
+			],
+			"outputs": [
+				{
+					"item": "bronze_ingot",
+					"n": 4
+				}
+			],
+			"ticks": 200,
+			"eu": 16
+		},
+		{
+			"id": "la_bronze_dust",
+			"station": "lv_alloy_smelter",
+			"inputs": [
+				{
+					"item": "copper_dust",
+					"n": 3
+				},
+				{
+					"item": "tin_dust",
+					"n": 1
+				}
+			],
+			"outputs": [
+				{
+					"item": "bronze_ingot",
+					"n": 4
+				}
+			],
+			"ticks": 200,
+			"eu": 16
+		},
+		{
+			"id": "la_cupronickel",
+			"station": "lv_alloy_smelter",
+			"inputs": [
+				{
+					"item": "copper_ingot",
+					"n": 1
+				},
+				{
+					"item": "nickel_ingot",
+					"n": 1
+				}
+			],
+			"outputs": [
+				{
+					"item": "cupronickel_ingot",
+					"n": 2
+				}
+			],
+			"ticks": 200,
+			"eu": 16
+		},
+		{
+			"id": "as_tin_cable",
+			"station": "lv_assembler",
+			"inputs": [
+				{
+					"item": "tin_wire",
+					"n": 2
+				},
+				{
+					"item": "rubber_plate",
+					"n": 1
+				}
+			],
+			"outputs": [
+				{
+					"item": "tin_cable",
+					"n": 2
+				}
+			],
+			"ticks": 100,
+			"eu": 8
+		},
+		{
+			"id": "as_vacuum_tube",
+			"station": "lv_assembler",
+			"inputs": [
+				{
+					"item": "glass",
+					"n": 1
+				},
+				{
+					"item": "copper_wire",
+					"n": 2
+				}
+			],
+			"outputs": [
+				{
+					"item": "vacuum_tube",
+					"n": 2
+				}
+			],
+			"ticks": 100,
+			"eu": 8
+		},
+		{
+			"id": "as_lv_circuit",
+			"station": "lv_assembler",
+			"inputs": [
+				{
+					"item": "circuit_board",
+					"n": 1
+				},
+				{
+					"item": "resistor",
+					"n": 2
+				},
+				{
+					"item": "vacuum_tube",
+					"n": 2
+				},
+				{
+					"item": "copper_wire",
+					"n": 2
+				}
+			],
+			"outputs": [
+				{
+					"item": "lv_circuit",
+					"n": 1
+				}
+			],
+			"ticks": 200,
+			"eu": 16
+		},
+		{
+			"id": "as_cupronickel_coil",
+			"station": "lv_assembler",
+			"inputs": [
+				{
+					"item": "cupronickel_wire",
+					"n": 4
+				},
+				{
+					"item": "firebrick",
+					"n": 1
+				}
+			],
+			"outputs": [
+				{
+					"item": "cupronickel_coil",
+					"n": 1
+				}
+			],
+			"ticks": 100,
+			"eu": 16
+		},
+		{
+			"id": "as_good_board",
+			"station": "lv_assembler",
+			"inputs": [
+				{
+					"item": "steel_plate",
+					"n": 1
+				},
+				{
+					"item": "copper_wire",
+					"n": 4
+				},
+				{
+					"item": "sticky_resin",
+					"n": 2
+				}
+			],
+			"outputs": [
+				{
+					"item": "good_board",
+					"n": 1
+				}
+			],
+			"ticks": 200,
+			"eu": 16
+		},
+		{
+			"id": "as_mv_circuit",
+			"station": "lv_assembler",
+			"inputs": [
+				{
+					"item": "good_board",
+					"n": 1
+				},
+				{
+					"item": "lv_circuit",
+					"n": 2
+				},
+				{
+					"item": "resistor",
+					"n": 2
+				},
+				{
+					"item": "copper_wire",
+					"n": 4
+				}
+			],
+			"outputs": [
+				{
+					"item": "mv_circuit",
+					"n": 1
+				}
+			],
+			"ticks": 400,
+			"eu": 24
+		},
+		{
+			"id": "ce_nickel",
+			"station": "lv_centrifuge",
+			"inputs": [
+				{
+					"item": "iron_dust",
+					"n": 4
+				}
+			],
+			"outputs": [
+				{
+					"item": "iron_dust",
+					"n": 3
+				},
+				{
+					"item": "nickel_dust",
+					"n": 1
+				}
+			],
+			"ticks": 300,
+			"eu": 16
+		},
+		{
+			"id": "el_water",
+			"station": "lv_electrolyzer",
+			"inputs": [
+				{
+					"item": "water",
+					"n": 1000
+				}
+			],
+			"outputs": [
+				{
+					"item": "oxygen",
+					"n": 500
+				}
+			],
+			"ticks": 300,
+			"eu": 30
+		}
+	]
+}

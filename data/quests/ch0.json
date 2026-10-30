@@ -1,0 +1,367 @@
+{
+	"chapter": {
+		"id": "ch0",
+		"era": 0,
+		"order": 0
+	},
+	"quests": [
+		{
+			"id": "q0_first_log",
+			"pos": [
+				0,
+				0
+			],
+			"requires": [],
+			"main": true,
+			"goals": [
+				{
+					"type": "obtain",
+					"item": "log",
+					"n": 1
+				}
+			],
+			"rewards": {
+				"items": [
+					{
+						"item": "log",
+						"n": 4
+					}
+				]
+			},
+			"icon": "log"
+		},
+		{
+			"id": "q0_workbench",
+			"pos": [
+				1,
+				0
+			],
+			"requires": [
+				"q0_first_log"
+			],
+			"main": true,
+			"goals": [
+				{
+					"type": "craft",
+					"item": "workbench",
+					"n": 1
+				}
+			],
+			"rewards": {
+				"items": [
+					{
+						"item": "planks",
+						"n": 8
+					}
+				]
+			},
+			"icon": "workbench"
+		},
+		{
+			"id": "q0_wood_pick",
+			"pos": [
+				2,
+				0
+			],
+			"requires": [
+				"q0_workbench"
+			],
+			"main": true,
+			"goals": [
+				{
+					"type": "craft",
+					"item": "tool_pickaxe_wood",
+					"n": 1
+				}
+			],
+			"rewards": {
+				"items": [
+					{
+						"item": "log",
+						"n": 8
+					}
+				]
+			},
+			"icon": "tool_pickaxe_wood"
+		},
+		{
+			"id": "q0_break_stone",
+			"pos": [
+				3,
+				0
+			],
+			"requires": [
+				"q0_wood_pick"
+			],
+			"main": true,
+			"goals": [
+				{
+					"type": "break",
+					"node": "stone",
+					"n": 10
+				}
+			],
+			"rewards": {
+				"items": [
+					{
+						"item": "cobblestone",
+						"n": 12
+					}
+				]
+			},
+			"icon": "cobblestone"
+		},
+		{
+			"id": "q0_furnace",
+			"pos": [
+				4,
+				0
+			],
+			"requires": [
+				"q0_break_stone"
+			],
+			"main": true,
+			"goals": [
+				{
+					"type": "craft",
+					"item": "furnace",
+					"n": 1
+				}
+			],
+			"rewards": {
+				"items": [
+					{
+						"item": "log",
+						"n": 8
+					}
+				]
+			},
+			"icon": "furnace"
+		},
+		{
+			"id": "q0_tools_book",
+			"pos": [
+				2,
+				1
+			],
+			"requires": [
+				"q0_wood_pick"
+			],
+			"main": false,
+			"goals": [
+				{
+					"type": "checkbox"
+				}
+			],
+			"rewards": {
+				"items": [
+					{
+						"item": "stick",
+						"n": 4
+					},
+					{
+						"item": "planks",
+						"n": 6
+					}
+				]
+			},
+			"icon": "tool_axe_wood"
+		},
+		{
+			"id": "q0_charcoal",
+			"pos": [
+				5,
+				0
+			],
+			"requires": [
+				"q0_furnace"
+			],
+			"main": true,
+			"goals": [
+				{
+					"type": "craft",
+					"item": "charcoal",
+					"n": 4
+				}
+			],
+			"rewards": {
+				"items": [
+					{
+						"item": "log",
+						"n": 12
+					}
+				]
+			},
+			"icon": "charcoal"
+		},
+		{
+			"id": "q0_intern",
+			"pos": [
+				5,
+				1
+			],
+			"requires": [
+				"q0_charcoal"
+			],
+			"main": true,
+			"goals": [
+				{
+					"type": "have",
+					"item": "log",
+					"n": 32
+				}
+			],
+			"rewards": {
+				"items": [
+					{
+						"item": "wooden_collector",
+						"n": 1
+					}
+				]
+			},
+			"icon": "wooden_collector"
+		},
+		{
+			"id": "q0_stone_pick",
+			"pos": [
+				6,
+				0
+			],
+			"requires": [
+				"q0_furnace"
+			],
+			"main": true,
+			"goals": [
+				{
+					"type": "craft",
+					"item": "tool_pickaxe_stone",
+					"n": 1
+				}
+			],
+			"rewards": {
+				"items": [
+					{
+						"item": "cobblestone",
+						"n": 16
+					}
+				]
+			},
+			"icon": "tool_pickaxe_stone"
+		},
+		{
+			"id": "q0_coal",
+			"pos": [
+				7,
+				0
+			],
+			"requires": [
+				"q0_stone_pick"
+			],
+			"main": true,
+			"goals": [
+				{
+					"type": "break",
+					"node": "coal_outcrop",
+					"n": 10
+				}
+			],
+			"rewards": {
+				"items": [
+					{
+						"item": "coal",
+						"n": 8
+					}
+				]
+			},
+			"icon": "coal"
+		},
+		{
+			"id": "q0_copper",
+			"pos": [
+				7,
+				1
+			],
+			"requires": [
+				"q0_stone_pick"
+			],
+			"main": true,
+			"goals": [
+				{
+					"type": "obtain",
+					"item": "copper_ingot",
+					"n": 6
+				}
+			],
+			"rewards": {
+				"items": [
+					{
+						"item": "copper_ore",
+						"n": 4
+					}
+				]
+			},
+			"icon": "copper_ingot"
+		},
+		{
+			"id": "q0_coke_oven",
+			"pos": [
+				8,
+				0
+			],
+			"requires": [
+				"q0_coal"
+			],
+			"main": true,
+			"goals": [
+				{
+					"type": "craft",
+					"item": "coke_oven",
+					"n": 1
+				}
+			],
+			"rewards": {
+				"items": [
+					{
+						"item": "coal",
+						"n": 8
+					}
+				]
+			},
+			"icon": "coke_oven"
+		},
+		{
+			"id": "q0_gate",
+			"pos": [
+				9,
+				0
+			],
+			"requires": [
+				"q0_coke_oven",
+				"q0_copper"
+			],
+			"main": true,
+			"goals": [
+				{
+					"type": "craft",
+					"item": "anvil",
+					"n": 1
+				},
+				{
+					"type": "craft",
+					"item": "coke_oven",
+					"n": 1
+				}
+			],
+			"rewards": {
+				"era": 1,
+				"items": [
+					{
+						"item": "coal",
+						"n": 16
+					}
+				]
+			},
+			"icon": "anvil"
+		}
+	]
+}

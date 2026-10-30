@@ -1,0 +1,429 @@
+{
+	"chapter": {
+		"id": "ch1",
+		"era": 1,
+		"order": 1
+	},
+	"quests": [
+		{
+			"id": "q1_ore_hills",
+			"pos": [
+				0,
+				0
+			],
+			"requires": [
+				"q0_gate"
+			],
+			"main": true,
+			"goals": [
+				{
+					"type": "checkbox"
+				}
+			],
+			"rewards": {
+				"unlock": [
+					"zone_ore_hills"
+				]
+			},
+			"icon": "tin_ore"
+		},
+		{
+			"id": "q1_tin",
+			"pos": [
+				1,
+				0
+			],
+			"requires": [
+				"q1_ore_hills"
+			],
+			"main": true,
+			"goals": [
+				{
+					"type": "obtain",
+					"item": "tin_ore",
+					"n": 4
+				}
+			],
+			"rewards": {
+				"items": [
+					{
+						"item": "tin_ore",
+						"n": 2
+					},
+					{
+						"item": "copper_ore",
+						"n": 4
+					}
+				]
+			},
+			"icon": "tin_ore"
+		},
+		{
+			"id": "q1_bronze",
+			"pos": [
+				2,
+				0
+			],
+			"requires": [
+				"q1_tin"
+			],
+			"main": true,
+			"goals": [
+				{
+					"type": "obtain",
+					"item": "bronze_ingot",
+					"n": 8
+				}
+			],
+			"rewards": {
+				"items": [
+					{
+						"item": "bronze_ingot",
+						"n": 3
+					}
+				]
+			},
+			"icon": "bronze_ingot"
+		},
+		{
+			"id": "q1_bronze_pick",
+			"pos": [
+				3,
+				1
+			],
+			"requires": [
+				"q1_bronze"
+			],
+			"main": true,
+			"goals": [
+				{
+					"type": "craft",
+					"item": "tool_pickaxe_bronze",
+					"n": 1
+				}
+			],
+			"rewards": {
+				"items": [
+					{
+						"item": "bronze_ingot",
+						"n": 3
+					}
+				]
+			},
+			"icon": "tool_pickaxe_bronze"
+		},
+		{
+			"id": "q1_boiler",
+			"pos": [
+				3,
+				0
+			],
+			"requires": [
+				"q1_bronze"
+			],
+			"main": true,
+			"goals": [
+				{
+					"type": "craft",
+					"item": "coal_boiler",
+					"n": 1
+				}
+			],
+			"rewards": {
+				"choice": [
+					[
+						{
+							"item": "coal",
+							"n": 48
+						}
+					],
+					[
+						{
+							"item": "bronze_plate",
+							"n": 5
+						},
+						{
+							"item": "brick",
+							"n": 4
+						}
+					]
+				]
+			},
+			"icon": "coal_boiler"
+		},
+		{
+			"id": "q1_steam_book",
+			"pos": [
+				4,
+				1
+			],
+			"requires": [
+				"q1_boiler"
+			],
+			"main": false,
+			"goals": [
+				{
+					"type": "checkbox"
+				}
+			],
+			"rewards": {
+				"items": [
+					{
+						"item": "coal",
+						"n": 16
+					}
+				]
+			},
+			"icon": "coal_boiler"
+		},
+		{
+			"id": "q1_steam_machine",
+			"pos": [
+				4,
+				0
+			],
+			"requires": [
+				"q1_boiler"
+			],
+			"main": true,
+			"goals": [
+				{
+					"type": "craft",
+					"tag": "steam_machine",
+					"n": 1
+				}
+			],
+			"rewards": {
+				"items": [
+					{
+						"item": "bronze_plate",
+						"n": 4
+					}
+				]
+			},
+			"icon": "steam_macerator"
+		},
+		{
+			"id": "q1_steam_gen",
+			"pos": [
+				5,
+				1
+			],
+			"requires": [
+				"q1_steam_machine"
+			],
+			"main": false,
+			"goals": [
+				{
+					"type": "stat",
+					"stat": "steam_gen",
+					"n": 24
+				}
+			],
+			"rewards": {
+				"items": [
+					{
+						"item": "coal",
+						"n": 32
+					}
+				]
+			},
+			"icon": "coal_boiler"
+		},
+		{
+			"id": "q1_drill",
+			"pos": [
+				5,
+				0
+			],
+			"requires": [
+				"q1_steam_machine"
+			],
+			"main": true,
+			"goals": [
+				{
+					"type": "craft",
+					"item": "steam_drill",
+					"n": 1
+				}
+			],
+			"rewards": {
+				"items": [
+					{
+						"item": "coal",
+						"n": 16
+					}
+				]
+			},
+			"icon": "steam_drill"
+		},
+		{
+			"id": "q1_miners",
+			"pos": [
+				6,
+				1
+			],
+			"requires": [
+				"q1_drill"
+			],
+			"main": false,
+			"goals": [
+				{
+					"type": "stat",
+					"stat": "miners",
+					"n": 4
+				}
+			],
+			"rewards": {
+				"items": [
+					{
+						"item": "bronze_rod",
+						"n": 4
+					},
+					{
+						"item": "bronze_casing",
+						"n": 1
+					}
+				]
+			},
+			"icon": "steam_drill"
+		},
+		{
+			"id": "q1_bbf",
+			"pos": [
+				6,
+				0
+			],
+			"requires": [
+				"q1_drill"
+			],
+			"main": true,
+			"goals": [
+				{
+					"type": "craft",
+					"item": "brick_blast_furnace",
+					"n": 1
+				}
+			],
+			"rewards": {
+				"items": [
+					{
+						"item": "firebrick",
+						"n": 4
+					}
+				]
+			},
+			"icon": "brick_blast_furnace"
+		},
+		{
+			"id": "q1_wrought",
+			"pos": [
+				7,
+				0
+			],
+			"requires": [
+				"q1_bbf"
+			],
+			"main": true,
+			"goals": [
+				{
+					"type": "obtain",
+					"item": "wrought_iron_ingot",
+					"n": 16
+				}
+			],
+			"rewards": {
+				"items": [
+					{
+						"item": "iron_ore",
+						"n": 8
+					}
+				]
+			},
+			"icon": "wrought_iron_ingot"
+		},
+		{
+			"id": "q1_rubber",
+			"pos": [
+				7,
+				1
+			],
+			"requires": [
+				"q1_steam_machine"
+			],
+			"main": true,
+			"goals": [
+				{
+					"type": "obtain",
+					"item": "rubber_plate",
+					"n": 4
+				}
+			],
+			"rewards": {
+				"items": [
+					{
+						"item": "sticky_resin",
+						"n": 4
+					}
+				]
+			},
+			"icon": "rubber_plate"
+		},
+		{
+			"id": "q1_lv_circuit",
+			"pos": [
+				8,
+				0
+			],
+			"requires": [
+				"q1_wrought",
+				"q1_rubber"
+			],
+			"main": true,
+			"goals": [
+				{
+					"type": "obtain",
+					"item": "lv_circuit",
+					"n": 1
+				}
+			],
+			"rewards": {
+				"items": [
+					{
+						"item": "copper_wire",
+						"n": 8
+					}
+				]
+			},
+			"icon": "lv_circuit"
+		},
+		{
+			"id": "q1_gate",
+			"pos": [
+				9,
+				0
+			],
+			"requires": [
+				"q1_lv_circuit"
+			],
+			"main": true,
+			"goals": [
+				{
+					"type": "craft",
+					"tag": "lv_machine",
+					"n": 1
+				}
+			],
+			"rewards": {
+				"era": 2,
+				"items": [
+					{
+						"item": "tin_cable",
+						"n": 4
+					}
+				]
+			},
+			"icon": "lv_macerator"
+		}
+	]
+}

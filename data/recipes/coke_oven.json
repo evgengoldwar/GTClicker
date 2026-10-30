@@ -1,0 +1,48 @@
+{
+	"recipes": [
+		{
+			"id": "coke_coal",
+			"station": "coke_oven",
+			"inputs": [
+				{
+					"item": "coal",
+					"n": 1
+				}
+			],
+			"outputs": [
+				{
+					"item": "coke",
+					"n": 1
+				},
+				{
+					"item": "creosote",
+					"n": 250
+				}
+			],
+			"ticks": 900,
+			"eu": 0
+		},
+		{
+			"id": "coke_log",
+			"station": "coke_oven",
+			"inputs": [
+				{
+					"item": "log",
+					"n": 1
+				}
+			],
+			"outputs": [
+				{
+					"item": "charcoal",
+					"n": 1
+				},
+				{
+					"item": "creosote",
+					"n": 125
+				}
+			],
+			"ticks": 600,
+			"eu": 0
+		}
+	]
+}

@@ -1,3 +1,8 @@
 # Godot 4+ specific ignores
 .godot/
 /android/
+# Временный файл линтера (tools/check.sh)
+override.cfg
+# Экспорт
+/build/
+*.tmp

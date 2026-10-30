@@ -1,0 +1,7 @@
+{
+	"miners": [
+		{"id": "wooden_collector", "era": 0, "tool_tier": 0, "damage_per_sec": 1.6, "tool_types": ["axe", "shovel"], "energy": "none", "usage": 0},
+		{"id": "steam_drill", "era": 1, "tool_tier": 2, "damage_per_sec": 16, "tool_types": ["pickaxe", "axe", "shovel", "any"], "energy": "steam", "usage": 3},
+		{"id": "lv_drill", "era": 2, "tool_tier": 3, "damage_per_sec": 48, "tool_types": ["pickaxe", "axe", "shovel", "any"], "energy": "eu", "usage": 8}
+	]
+}

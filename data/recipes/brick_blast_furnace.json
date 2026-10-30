@@ -1,0 +1,48 @@
+{
+	"recipes": [
+		{
+			"id": "bbf_bronze",
+			"station": "brick_blast_furnace",
+			"inputs": [
+				{
+					"item": "copper_ingot",
+					"n": 3
+				},
+				{
+					"item": "tin_ingot",
+					"n": 1
+				}
+			],
+			"outputs": [
+				{
+					"item": "bronze_ingot",
+					"n": 4
+				}
+			],
+			"ticks": 400,
+			"eu": 0
+		},
+		{
+			"id": "bbf_wrought_iron",
+			"station": "brick_blast_furnace",
+			"inputs": [
+				{
+					"item": "iron_ingot",
+					"n": 1
+				},
+				{
+					"tag": "carbon",
+					"n": 1
+				}
+			],
+			"outputs": [
+				{
+					"item": "wrought_iron_ingot",
+					"n": 1
+				}
+			],
+			"ticks": 300,
+			"eu": 0
+		}
+	]
+}

@@ -1,0 +1,54 @@
+{
+	"recipes": [
+		{
+			"id": "ebf_steel",
+			"station": "ebf",
+			"inputs": [
+				{
+					"item": "iron_dust",
+					"n": 1
+				},
+				{
+					"item": "coal_dust",
+					"n": 1
+				}
+			],
+			"outputs": [
+				{
+					"item": "steel_ingot",
+					"n": 1
+				}
+			],
+			"ticks": 600,
+			"eu": 30,
+			"req": {
+				"heat": 1000
+			}
+		},
+		{
+			"id": "ebf_steel_oxygen",
+			"station": "ebf",
+			"inputs": [
+				{
+					"item": "iron_dust",
+					"n": 1
+				},
+				{
+					"item": "oxygen",
+					"n": 250
+				}
+			],
+			"outputs": [
+				{
+					"item": "steel_ingot",
+					"n": 1
+				}
+			],
+			"ticks": 300,
+			"eu": 30,
+			"req": {
+				"heat": 1000
+			}
+		}
+	]
+}

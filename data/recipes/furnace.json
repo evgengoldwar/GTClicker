@@ -1,0 +1,80 @@
+{
+	"recipes": [
+		{
+			"id": "furnace_charcoal",
+			"station": "furnace",
+			"inputs": [
+				{
+					"item": "log",
+					"n": 1
+				}
+			],
+			"outputs": [
+				{
+					"item": "charcoal",
+					"n": 1
+				}
+			],
+			"ticks": 200,
+			"eu": 0
+		},
+		{
+			"id": "furnace_brick",
+			"station": "furnace",
+			"inputs": [
+				{
+					"item": "clay_ball",
+					"n": 1
+				}
+			],
+			"outputs": [
+				{
+					"item": "brick",
+					"n": 1
+				}
+			],
+			"ticks": 160,
+			"eu": 0
+		},
+		{
+			"id": "furnace_glass",
+			"station": "furnace",
+			"inputs": [
+				{
+					"item": "sand",
+					"n": 1
+				}
+			],
+			"outputs": [
+				{
+					"item": "glass",
+					"n": 1
+				}
+			],
+			"ticks": 160,
+			"eu": 0
+		},
+		{
+			"id": "furnace_firebrick",
+			"station": "furnace",
+			"inputs": [
+				{
+					"item": "clay_ball",
+					"n": 1
+				},
+				{
+					"item": "sand",
+					"n": 1
+				}
+			],
+			"outputs": [
+				{
+					"item": "firebrick",
+					"n": 1
+				}
+			],
+			"ticks": 200,
+			"eu": 0
+		}
+	]
+}

@@ -1,0 +1,327 @@
+{
+	"chapter": {
+		"id": "ch2",
+		"era": 2,
+		"order": 2
+	},
+	"quests": [
+		{
+			"id": "q2_turbine",
+			"pos": [
+				0,
+				0
+			],
+			"requires": [
+				"q1_gate"
+			],
+			"main": true,
+			"goals": [
+				{
+					"type": "craft",
+					"item": "steam_turbine_lv",
+					"n": 1
+				}
+			],
+			"rewards": {
+				"items": [
+					{
+						"item": "coal",
+						"n": 32
+					}
+				]
+			},
+			"icon": "steam_turbine_lv"
+		},
+		{
+			"id": "q2_power_book",
+			"pos": [
+				1,
+				2
+			],
+			"requires": [
+				"q2_turbine"
+			],
+			"main": false,
+			"goals": [
+				{
+					"type": "checkbox"
+				}
+			],
+			"rewards": {
+				"items": [
+					{
+						"item": "battery_lv",
+						"n": 1
+					}
+				]
+			},
+			"icon": "battery_lv"
+		},
+		{
+			"id": "q2_battery",
+			"pos": [
+				2,
+				1
+			],
+			"requires": [
+				"q2_turbine"
+			],
+			"main": false,
+			"goals": [
+				{
+					"type": "craft",
+					"item": "battery_buffer_lv",
+					"n": 1
+				}
+			],
+			"rewards": {
+				"items": [
+					{
+						"item": "coal_dust",
+						"n": 8
+					}
+				]
+			},
+			"icon": "battery_buffer_lv"
+		},
+		{
+			"id": "q2_wiremill",
+			"pos": [
+				1,
+				0
+			],
+			"requires": [
+				"q2_turbine"
+			],
+			"main": true,
+			"goals": [
+				{
+					"type": "craft",
+					"item": "lv_wiremill",
+					"n": 1
+				}
+			],
+			"rewards": {
+				"items": [
+					{
+						"item": "copper_ingot",
+						"n": 8
+					}
+				]
+			},
+			"icon": "lv_wiremill"
+		},
+		{
+			"id": "q2_nickel",
+			"pos": [
+				2,
+				0
+			],
+			"requires": [
+				"q2_wiremill"
+			],
+			"main": true,
+			"goals": [
+				{
+					"type": "obtain",
+					"item": "nickel_ingot",
+					"n": 8
+				}
+			],
+			"rewards": {
+				"items": [
+					{
+						"item": "nickel_ore",
+						"n": 4
+					}
+				]
+			},
+			"icon": "nickel_ingot"
+		},
+		{
+			"id": "q2_alloy",
+			"pos": [
+				3,
+				0
+			],
+			"requires": [
+				"q2_nickel"
+			],
+			"main": true,
+			"goals": [
+				{
+					"type": "obtain",
+					"item": "cupronickel_ingot",
+					"n": 16
+				}
+			],
+			"rewards": {
+				"items": [
+					{
+						"item": "nickel_ingot",
+						"n": 2
+					}
+				]
+			},
+			"icon": "cupronickel_ingot"
+		},
+		{
+			"id": "q2_coils",
+			"pos": [
+				4,
+				0
+			],
+			"requires": [
+				"q2_alloy"
+			],
+			"main": true,
+			"goals": [
+				{
+					"type": "obtain",
+					"item": "cupronickel_coil",
+					"n": 16
+				}
+			],
+			"rewards": {
+				"items": [
+					{
+						"item": "firebrick",
+						"n": 4
+					}
+				]
+			},
+			"icon": "cupronickel_coil"
+		},
+		{
+			"id": "q2_ebf",
+			"pos": [
+				5,
+				0
+			],
+			"requires": [
+				"q2_coils"
+			],
+			"main": true,
+			"goals": [
+				{
+					"type": "stat",
+					"stat": "ebf_built",
+					"n": 1
+				}
+			],
+			"rewards": {
+				"items": [
+					{
+						"item": "coal_dust",
+						"n": 16
+					}
+				]
+			},
+			"icon": "ebf_controller"
+		},
+		{
+			"id": "q2_steel",
+			"pos": [
+				6,
+				0
+			],
+			"requires": [
+				"q2_ebf"
+			],
+			"main": true,
+			"goals": [
+				{
+					"type": "craft",
+					"item": "steel_ingot",
+					"n": 1,
+					"station": "ebf"
+				}
+			],
+			"rewards": {
+				"items": [
+					{
+						"item": "iron_dust",
+						"n": 4
+					}
+				]
+			},
+			"icon": "steel_ingot"
+		},
+		{
+			"id": "q2_assembler",
+			"pos": [
+				5,
+				1
+			],
+			"requires": [
+				"q2_wiremill"
+			],
+			"main": true,
+			"goals": [
+				{
+					"type": "craft",
+					"item": "lv_assembler",
+					"n": 1
+				}
+			],
+			"rewards": {
+				"items": [
+					{
+						"item": "copper_wire",
+						"n": 16
+					}
+				]
+			},
+			"icon": "lv_assembler"
+		},
+		{
+			"id": "q2_mv_circuit",
+			"pos": [
+				7,
+				0
+			],
+			"requires": [
+				"q2_steel",
+				"q2_assembler"
+			],
+			"main": true,
+			"goals": [
+				{
+					"type": "obtain",
+					"item": "mv_circuit",
+					"n": 1
+				}
+			],
+			"rewards": {},
+			"icon": "mv_circuit"
+		},
+		{
+			"id": "q2_demo_end",
+			"pos": [
+				8,
+				0
+			],
+			"requires": [
+				"q2_mv_circuit"
+			],
+			"main": true,
+			"goals": [
+				{
+					"type": "craft",
+					"item": "steel_ingot",
+					"n": 1,
+					"station": "ebf"
+				},
+				{
+					"type": "obtain",
+					"item": "mv_circuit",
+					"n": 1
+				}
+			],
+			"rewards": {
+				"demo_end": true
+			},
+			"icon": "mv_circuit"
+		}
+	]
+}

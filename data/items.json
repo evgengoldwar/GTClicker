@@ -1,0 +1,631 @@
+{
+	"items": [
+		{
+			"id": "log",
+			"icon": "log",
+			"color": "#8b5a2b",
+			"era": 0,
+			"tags": [
+				"log",
+				"wood",
+				"fuel"
+			],
+			"fuel": 1500
+		},
+		{
+			"id": "planks",
+			"icon": "planks",
+			"color": "#c8a064",
+			"era": 0,
+			"tags": [
+				"planks",
+				"wood",
+				"fuel"
+			],
+			"fuel": 375
+		},
+		{
+			"id": "stick",
+			"icon": "stick",
+			"color": "#a07840",
+			"era": 0,
+			"tags": [
+				"wood"
+			]
+		},
+		{
+			"id": "cobblestone",
+			"icon": "block",
+			"color": "#8a8a8a",
+			"era": 0,
+			"tags": [
+				"stone"
+			]
+		},
+		{
+			"id": "flint",
+			"icon": "gem",
+			"color": "#55555f",
+			"era": 0,
+			"tags": [
+				"gem"
+			]
+		},
+		{
+			"id": "clay_ball",
+			"icon": "ball",
+			"color": "#a8b0c0",
+			"era": 0,
+			"tags": [
+				"clay"
+			]
+		},
+		{
+			"id": "sand",
+			"icon": "pile",
+			"color": "#e0d090",
+			"era": 0,
+			"tags": [
+				"sand"
+			]
+		},
+		{
+			"id": "brick",
+			"icon": "brick",
+			"color": "#b05030",
+			"era": 0,
+			"tags": [
+				"brick"
+			]
+		},
+		{
+			"id": "glass",
+			"icon": "glass",
+			"color": "#c0e0f0",
+			"era": 0,
+			"tags": [
+				"glass"
+			]
+		},
+		{
+			"id": "charcoal",
+			"icon": "lump",
+			"color": "#4a4440",
+			"era": 0,
+			"tags": [
+				"fuel",
+				"carbon"
+			],
+			"fuel": 4000
+		},
+		{
+			"id": "coal",
+			"icon": "lump",
+			"color": "#26262a",
+			"era": 0,
+			"tags": [
+				"fuel",
+				"carbon"
+			],
+			"fuel": 4000
+		},
+		{
+			"id": "coke",
+			"icon": "lump",
+			"color": "#5a5a6a",
+			"era": 0,
+			"tags": [
+				"fuel",
+				"carbon"
+			],
+			"fuel": 8000
+		},
+		{
+			"id": "creosote",
+			"icon": "fluid",
+			"color": "#6b4a1e",
+			"era": 0,
+			"unit": "liter",
+			"tags": [
+				"fluid",
+				"liquid_fuel"
+			],
+			"fuel": 16
+		},
+		{
+			"id": "firebrick",
+			"icon": "brick",
+			"color": "#d8b080",
+			"era": 1,
+			"tags": [
+				"brick"
+			]
+		},
+		{
+			"id": "workbench",
+			"kind": "station",
+			"icon": "workbench",
+			"color": "#b08850",
+			"era": 0,
+			"tags": [
+				"station"
+			]
+		},
+		{
+			"id": "furnace",
+			"kind": "station",
+			"icon": "furnace",
+			"color": "#8a8a8a",
+			"era": 0,
+			"tags": [
+				"station"
+			]
+		},
+		{
+			"id": "coke_oven",
+			"kind": "station",
+			"icon": "furnace",
+			"color": "#a05030",
+			"era": 0,
+			"tags": [
+				"station"
+			]
+		},
+		{
+			"id": "wooden_collector",
+			"kind": "miner",
+			"icon": "collector",
+			"color": "#b08850",
+			"era": 0,
+			"tags": [
+				"miner"
+			]
+		},
+		{
+			"id": "sticky_resin",
+			"icon": "resin",
+			"color": "#d09020",
+			"era": 1,
+			"tags": [
+				"resin"
+			]
+		},
+		{
+			"id": "raw_rubber",
+			"icon": "dust",
+			"color": "#4a4030",
+			"era": 1,
+			"tags": [
+				"dust",
+				"rubber"
+			]
+		},
+		{
+			"id": "bronze_casing",
+			"icon": "casing",
+			"color": "#d99a3a",
+			"era": 1,
+			"tags": [
+				"casing"
+			]
+		},
+		{
+			"id": "anvil",
+			"kind": "station",
+			"icon": "anvil",
+			"color": "#e07b39",
+			"era": 1,
+			"tags": [
+				"station"
+			]
+		},
+		{
+			"id": "brick_blast_furnace",
+			"kind": "station",
+			"icon": "blast",
+			"color": "#d8b080",
+			"era": 1,
+			"tags": [
+				"station"
+			]
+		},
+		{
+			"id": "steam_macerator",
+			"kind": "station",
+			"icon": "machine",
+			"color": "#d99a3a",
+			"era": 1,
+			"tags": [
+				"station",
+				"steam_machine"
+			]
+		},
+		{
+			"id": "steam_compressor",
+			"kind": "station",
+			"icon": "machine",
+			"color": "#d99a3a",
+			"era": 1,
+			"tags": [
+				"station",
+				"steam_machine"
+			]
+		},
+		{
+			"id": "steam_extractor",
+			"kind": "station",
+			"icon": "machine",
+			"color": "#d99a3a",
+			"era": 1,
+			"tags": [
+				"station",
+				"steam_machine"
+			]
+		},
+		{
+			"id": "steam_forge_hammer",
+			"kind": "station",
+			"icon": "machine",
+			"color": "#d99a3a",
+			"era": 1,
+			"tags": [
+				"station",
+				"steam_machine"
+			]
+		},
+		{
+			"id": "coal_boiler",
+			"kind": "generator",
+			"icon": "boiler",
+			"color": "#d99a3a",
+			"era": 1,
+			"tags": [
+				"generator"
+			]
+		},
+		{
+			"id": "solar_boiler",
+			"kind": "generator",
+			"icon": "solar",
+			"color": "#c0e0f0",
+			"era": 1,
+			"tags": [
+				"generator"
+			]
+		},
+		{
+			"id": "steam_drill",
+			"kind": "miner",
+			"icon": "drill",
+			"color": "#d99a3a",
+			"era": 1,
+			"tags": [
+				"miner"
+			]
+		},
+		{
+			"id": "water",
+			"icon": "fluid",
+			"color": "#3a6ad0",
+			"era": 2,
+			"unit": "liter",
+			"tags": [
+				"fluid"
+			]
+		},
+		{
+			"id": "oxygen",
+			"icon": "fluid",
+			"color": "#a0d0ff",
+			"era": 2,
+			"unit": "liter",
+			"tags": [
+				"fluid",
+				"gas"
+			]
+		},
+		{
+			"id": "tin_cable",
+			"icon": "cable",
+			"color": "#9090a0",
+			"era": 2,
+			"tags": [
+				"cable"
+			]
+		},
+		{
+			"id": "lv_hull",
+			"icon": "hull",
+			"color": "#b8988c",
+			"era": 2,
+			"tags": [
+				"hull"
+			]
+		},
+		{
+			"id": "electric_motor",
+			"icon": "motor",
+			"color": "#c0c0c8",
+			"era": 2,
+			"tags": [
+				"component"
+			]
+		},
+		{
+			"id": "electric_piston",
+			"icon": "piston",
+			"color": "#c0c0c8",
+			"era": 2,
+			"tags": [
+				"component"
+			]
+		},
+		{
+			"id": "vacuum_tube",
+			"icon": "tube",
+			"color": "#d0e0e8",
+			"era": 2,
+			"tags": [
+				"component"
+			]
+		},
+		{
+			"id": "resistor",
+			"icon": "resistor",
+			"color": "#8b6b4b",
+			"era": 2,
+			"tags": [
+				"component"
+			]
+		},
+		{
+			"id": "circuit_board",
+			"icon": "board",
+			"color": "#4a7a3a",
+			"era": 2,
+			"tags": [
+				"component"
+			]
+		},
+		{
+			"id": "lv_circuit",
+			"icon": "circuit",
+			"color": "#6080c0",
+			"era": 2,
+			"tags": [
+				"circuit"
+			]
+		},
+		{
+			"id": "good_board",
+			"icon": "board",
+			"color": "#3a5a8a",
+			"era": 2,
+			"tags": [
+				"component"
+			]
+		},
+		{
+			"id": "mv_circuit",
+			"icon": "circuit",
+			"color": "#e08040",
+			"era": 2,
+			"tags": [
+				"circuit"
+			]
+		},
+		{
+			"id": "battery_lv",
+			"icon": "battery",
+			"color": "#9090a0",
+			"era": 2,
+			"tags": [
+				"component"
+			]
+		},
+		{
+			"id": "lv_macerator",
+			"kind": "station",
+			"icon": "machine",
+			"color": "#c0c0c8",
+			"era": 2,
+			"tags": [
+				"station",
+				"lv_machine"
+			]
+		},
+		{
+			"id": "lv_compressor",
+			"kind": "station",
+			"icon": "machine",
+			"color": "#c0c0c8",
+			"era": 2,
+			"tags": [
+				"station",
+				"lv_machine"
+			]
+		},
+		{
+			"id": "lv_extractor",
+			"kind": "station",
+			"icon": "machine",
+			"color": "#c0c0c8",
+			"era": 2,
+			"tags": [
+				"station",
+				"lv_machine"
+			]
+		},
+		{
+			"id": "lv_forge_hammer",
+			"kind": "station",
+			"icon": "machine",
+			"color": "#c0c0c8",
+			"era": 2,
+			"tags": [
+				"station",
+				"lv_machine"
+			]
+		},
+		{
+			"id": "lv_wiremill",
+			"kind": "station",
+			"icon": "machine",
+			"color": "#c0c0c8",
+			"era": 2,
+			"tags": [
+				"station",
+				"lv_machine"
+			]
+		},
+		{
+			"id": "lv_alloy_smelter",
+			"kind": "station",
+			"icon": "machine",
+			"color": "#c0c0c8",
+			"era": 2,
+			"tags": [
+				"station",
+				"lv_machine"
+			]
+		},
+		{
+			"id": "lv_assembler",
+			"kind": "station",
+			"icon": "machine",
+			"color": "#c0c0c8",
+			"era": 2,
+			"tags": [
+				"station",
+				"lv_machine"
+			]
+		},
+		{
+			"id": "lv_centrifuge",
+			"kind": "station",
+			"icon": "machine",
+			"color": "#c0c0c8",
+			"era": 2,
+			"tags": [
+				"station",
+				"lv_machine"
+			]
+		},
+		{
+			"id": "lv_electrolyzer",
+			"kind": "station",
+			"icon": "machine",
+			"color": "#c0c0c8",
+			"era": 2,
+			"tags": [
+				"station",
+				"lv_machine"
+			]
+		},
+		{
+			"id": "steam_turbine_lv",
+			"kind": "generator",
+			"icon": "turbine",
+			"color": "#c0c0c8",
+			"era": 2,
+			"tags": [
+				"generator",
+				"lv_machine"
+			]
+		},
+		{
+			"id": "combustion_gen_lv",
+			"kind": "generator",
+			"icon": "generator",
+			"color": "#c0c0c8",
+			"era": 2,
+			"tags": [
+				"generator",
+				"lv_machine"
+			]
+		},
+		{
+			"id": "battery_buffer_lv",
+			"kind": "generator",
+			"icon": "battery_box",
+			"color": "#c0c0c8",
+			"era": 2,
+			"tags": [
+				"generator",
+				"lv_machine"
+			]
+		},
+		{
+			"id": "lv_drill",
+			"kind": "miner",
+			"icon": "drill",
+			"color": "#c0c0c8",
+			"era": 2,
+			"tags": [
+				"miner",
+				"lv_machine"
+			]
+		},
+		{
+			"id": "heatproof_casing",
+			"kind": "part",
+			"icon": "casing",
+			"color": "#c8b8a0",
+			"era": 2,
+			"tags": [
+				"casing"
+			]
+		},
+		{
+			"id": "cupronickel_coil",
+			"kind": "part",
+			"icon": "coil",
+			"color": "#e3a07a",
+			"era": 2,
+			"tags": [
+				"coil"
+			],
+			"heat": 1801
+		},
+		{
+			"id": "lv_input_bus",
+			"kind": "part",
+			"icon": "bus",
+			"color": "#6080c0",
+			"era": 2,
+			"tags": [
+				"hatch"
+			]
+		},
+		{
+			"id": "lv_output_bus",
+			"kind": "part",
+			"icon": "bus",
+			"color": "#c08060",
+			"era": 2,
+			"tags": [
+				"hatch"
+			]
+		},
+		{
+			"id": "lv_energy_hatch",
+			"kind": "part",
+			"icon": "hatch",
+			"color": "#c0c0c8",
+			"era": 2,
+			"tags": [
+				"hatch"
+			]
+		},
+		{
+			"id": "ebf_controller",
+			"kind": "part",
+			"icon": "controller",
+			"color": "#c8b8a0",
+			"era": 2,
+			"tags": [
+				"controller"
+			]
+		}
+	]
+}

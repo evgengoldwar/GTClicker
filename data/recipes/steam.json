@@ -1,0 +1,76 @@
+{
+	"recipes": [
+		{
+			"id": "sm_coal_dust",
+			"station": "steam_macerator",
+			"inputs": [
+				{
+					"item": "coal",
+					"n": 1
+				}
+			],
+			"outputs": [
+				{
+					"item": "coal_dust",
+					"n": 1
+				}
+			],
+			"ticks": 100,
+			"eu": 2
+		},
+		{
+			"id": "sm_sand",
+			"station": "steam_macerator",
+			"inputs": [
+				{
+					"item": "cobblestone",
+					"n": 1
+				}
+			],
+			"outputs": [
+				{
+					"item": "sand",
+					"n": 1
+				}
+			],
+			"ticks": 100,
+			"eu": 2
+		},
+		{
+			"id": "sc_rubber_plate",
+			"station": "steam_compressor",
+			"inputs": [
+				{
+					"item": "raw_rubber",
+					"n": 2
+				}
+			],
+			"outputs": [
+				{
+					"item": "rubber_plate",
+					"n": 1
+				}
+			],
+			"ticks": 200,
+			"eu": 2
+		},
+		{
+			"id": "se_rubber",
+			"station": "steam_extractor",
+			"inputs": [
+				{
+					"item": "sticky_resin",
+					"n": 1
+				}
+			],
+			"outputs": [
+				{
+					"item": "raw_rubber",
+					"n": 2
+				}
+			],
+			"ticks": 200,
+			"eu": 2
+		}
+	]
+}

@@ -1,0 +1,12 @@
+{
+	"features": [
+		{"id": "tab_storage", "when": {"obtained": {"log": 5}}, "hint": "HINT_STORAGE"},
+		{"id": "hand_craft", "when": {"obtained": {"log": 5}}, "hint": "HINT_HAND_CRAFT"},
+		{"id": "tab_stations", "when": {"discovered": "workbench"}, "hint": "HINT_STATIONS"},
+		{"id": "tab_quests", "when": {"discovered": "furnace"}, "hint": "HINT_QUESTS"},
+		{"id": "tab_anvil", "when": {"discovered": "anvil"}, "hint": "HINT_ANVIL"},
+		{"id": "tab_power", "when": {"any": [{"discovered": "coal_boiler"}, {"discovered": "solar_boiler"}]}, "hint": "HINT_POWER"},
+		{"id": "miner_cells", "when": {"any": [{"discovered": "wooden_collector"}, {"discovered": "steam_drill"}]}, "hint": "HINT_MINERS"},
+		{"id": "zone_ore_hills", "when": {"quest": "q1_ore_hills"}, "hint": "HINT_ORE_HILLS"}
+	]
+}

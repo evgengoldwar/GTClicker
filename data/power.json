@@ -1,0 +1,9 @@
+{
+	"generators": [
+		{"id": "coal_boiler", "type": "boiler", "era": 1, "steam_per_tick": 12, "buffer": 2000, "warmup_sec": 30, "fuel_tag": "fuel", "auto_tag": "carbon"},
+		{"id": "solar_boiler", "type": "solar", "era": 1, "steam_per_tick": 3, "buffer": 1000},
+		{"id": "steam_turbine_lv", "type": "turbine", "era": 2, "eu_per_tick": 24},
+		{"id": "combustion_gen_lv", "type": "fuel_gen", "era": 2, "eu_per_tick": 20, "fuel_tag": "liquid_fuel", "pull": 100},
+		{"id": "battery_buffer_lv", "type": "battery", "era": 2, "capacity": 400000}
+	]
+}

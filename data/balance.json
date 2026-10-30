@@ -1,0 +1,55 @@
+{
+	"ticks_per_second": 20,
+	"day_length_sec": 1200,
+	"day_fraction": 0.6,
+	"mining": {
+		"hand_damage": 1,
+		"wrong_tool_mult": 0.25,
+		"autoclick_per_sec": 5,
+		"crit_spawn_per_sec": 0.2,
+		"crit_lifetime_sec": 1.6,
+		"crit_mult": 5
+	},
+	"tools": {
+		"types": ["pickaxe", "axe", "shovel"],
+		"head_cost": {"pickaxe": 3, "axe": 3, "shovel": 1},
+		"first_tier_sticks": 2,
+		"break_return": 0.5,
+		"repair_cost_mult": 0.6,
+		"warn_fraction": 0.2,
+		"alert_fraction": 0.05
+	},
+	"stations": {
+		"craft_click_boost_sec": 0.2,
+		"speed_per_level": 0.1,
+		"speed_max_level": 10,
+		"efficiency_per_level": 0.05,
+		"efficiency_max_level": 10,
+		"upgrade_cost_growth": 1.6
+	},
+	"voltage": [
+		{"id": "ULV", "eu": 8},
+		{"id": "LV", "eu": 32},
+		{"id": "MV", "eu": 128}
+	],
+	"steam_machine_max_eu": 8,
+	"ebf": {
+		"heat_discount_step": 900,
+		"heat_discount": 0.05,
+		"perfect_overclock_step": 1800
+	},
+	"power": {
+		"steam_per_eu": 2,
+		"history_sample_sec": 5,
+		"history_points": 120
+	},
+	"offline": {
+		"max_hours": 12,
+		"max_events": 200000
+	},
+	"save": {
+		"autosave_sec": 60,
+		"backups": 3
+	},
+	"income_window_sec": 10
+}

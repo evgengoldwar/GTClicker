@@ -1,0 +1,486 @@
+{
+	"materials": [
+		{
+			"id": "wood",
+			"color": "#a07840",
+			"era": 0,
+			"forms": [],
+			"tool": {
+				"tool_tier": 0,
+				"damage": 2,
+				"durability": 60,
+				"head_item": "planks",
+				"station": "workbench"
+			}
+		},
+		{
+			"id": "stone",
+			"color": "#8a8a8a",
+			"era": 0,
+			"forms": [],
+			"tool": {
+				"tool_tier": 1,
+				"damage": 4,
+				"durability": 130,
+				"head_item": "cobblestone",
+				"station": "workbench"
+			}
+		},
+		{
+			"id": "coal",
+			"color": "#2a2a2e",
+			"era": 0,
+			"forms": [
+				"dust"
+			],
+			"flags": []
+		},
+		{
+			"id": "copper",
+			"color": "#e07b39",
+			"era": 0,
+			"melting": 1357,
+			"forms": [
+				"ore",
+				"dust",
+				"ingot",
+				"plate",
+				"wire"
+			],
+			"flags": [
+				"smeltable"
+			]
+		},
+		{
+			"id": "tin",
+			"color": "#c8c8dc",
+			"era": 1,
+			"melting": 505,
+			"forms": [
+				"ore",
+				"dust",
+				"ingot",
+				"plate",
+				"wire"
+			],
+			"flags": [
+				"smeltable"
+			]
+		},
+		{
+			"id": "bronze",
+			"color": "#d99a3a",
+			"era": 1,
+			"melting": 1357,
+			"forms": [
+				"dust",
+				"ingot",
+				"plate",
+				"rod"
+			],
+			"flags": [
+				"smeltable"
+			],
+			"tool": {
+				"tool_tier": 2,
+				"damage": 8,
+				"durability": 400,
+				"head_item": "bronze_ingot",
+				"station": "anvil"
+			}
+		},
+		{
+			"id": "iron",
+			"color": "#d8d0cc",
+			"era": 1,
+			"melting": 1811,
+			"forms": [
+				"ore",
+				"dust",
+				"ingot",
+				"plate",
+				"rod"
+			],
+			"flags": [
+				"smeltable"
+			],
+			"ore_byproduct": {
+				"item": "nickel_dust",
+				"chance": 0.1
+			}
+		},
+		{
+			"id": "wrought_iron",
+			"color": "#b8988c",
+			"era": 1,
+			"melting": 1811,
+			"forms": [
+				"ingot",
+				"plate",
+				"rod"
+			],
+			"flags": [],
+			"tool": {
+				"tool_tier": 3,
+				"damage": 12,
+				"durability": 600,
+				"head_item": "wrought_iron_ingot",
+				"station": "anvil"
+			}
+		},
+		{
+			"id": "nickel",
+			"color": "#c8c890",
+			"era": 2,
+			"melting": 1728,
+			"forms": [
+				"ore",
+				"dust",
+				"ingot"
+			],
+			"flags": [
+				"smeltable"
+			]
+		},
+		{
+			"id": "cupronickel",
+			"color": "#e3a07a",
+			"era": 2,
+			"melting": 1543,
+			"forms": [
+				"ingot",
+				"wire"
+			],
+			"flags": []
+		},
+		{
+			"id": "steel",
+			"color": "#7a7a8c",
+			"era": 2,
+			"melting": 1811,
+			"blast_heat": 1000,
+			"forms": [
+				"ingot",
+				"plate"
+			],
+			"flags": [],
+			"tool": {
+				"tool_tier": 4,
+				"damage": 20,
+				"durability": 1200,
+				"head_item": "steel_ingot",
+				"station": "anvil"
+			}
+		},
+		{
+			"id": "rubber",
+			"color": "#3a3a3a",
+			"era": 1,
+			"forms": [
+				"plate"
+			],
+			"flags": []
+		}
+	],
+	"forms": {
+		"ore": {
+			"icon": "ore",
+			"tags": [
+				"ore"
+			]
+		},
+		"dust": {
+			"icon": "dust",
+			"tags": [
+				"dust"
+			]
+		},
+		"ingot": {
+			"icon": "ingot",
+			"tags": [
+				"ingot",
+				"metal"
+			]
+		},
+		"plate": {
+			"icon": "plate",
+			"tags": [
+				"plate"
+			]
+		},
+		"rod": {
+			"icon": "rod",
+			"tags": [
+				"rod"
+			]
+		},
+		"wire": {
+			"icon": "wire",
+			"tags": [
+				"wire"
+			]
+		}
+	},
+	"form_recipes": [
+		{
+			"id": "smelt_ore",
+			"station": "furnace",
+			"flags": [
+				"smeltable"
+			],
+			"inputs": [
+				{
+					"form": "ore",
+					"n": 1
+				}
+			],
+			"outputs": [
+				{
+					"form": "ingot",
+					"n": 1
+				}
+			],
+			"ticks": 160,
+			"eu": 0
+		},
+		{
+			"id": "smelt_dust",
+			"station": "furnace",
+			"flags": [
+				"smeltable"
+			],
+			"inputs": [
+				{
+					"form": "dust",
+					"n": 1
+				}
+			],
+			"outputs": [
+				{
+					"form": "ingot",
+					"n": 1
+				}
+			],
+			"ticks": 160,
+			"eu": 0
+		},
+		{
+			"id": "mortar_ingot",
+			"station": "workbench",
+			"inputs": [
+				{
+					"form": "ingot",
+					"n": 1
+				}
+			],
+			"outputs": [
+				{
+					"form": "dust",
+					"n": 1
+				}
+			],
+			"ticks": 200,
+			"eu": 0
+		},
+		{
+			"id": "hammer_plate",
+			"station": "workbench",
+			"inputs": [
+				{
+					"form": "ingot",
+					"n": 2
+				}
+			],
+			"outputs": [
+				{
+					"form": "plate",
+					"n": 1
+				}
+			],
+			"ticks": 120,
+			"eu": 0
+		},
+		{
+			"id": "file_rod",
+			"station": "workbench",
+			"inputs": [
+				{
+					"form": "ingot",
+					"n": 1
+				}
+			],
+			"outputs": [
+				{
+					"form": "rod",
+					"n": 1
+				}
+			],
+			"ticks": 120,
+			"eu": 0
+		},
+		{
+			"id": "cut_wire",
+			"station": "workbench",
+			"inputs": [
+				{
+					"form": "plate",
+					"n": 1
+				}
+			],
+			"outputs": [
+				{
+					"form": "wire",
+					"n": 1
+				}
+			],
+			"ticks": 120,
+			"eu": 0
+		},
+		{
+			"id": "steam_macerate_ore",
+			"station": "steam_macerator",
+			"byproduct": true,
+			"inputs": [
+				{
+					"form": "ore",
+					"n": 1
+				}
+			],
+			"outputs": [
+				{
+					"form": "dust",
+					"n": 2
+				}
+			],
+			"ticks": 200,
+			"eu": 2
+		},
+		{
+			"id": "steam_macerate_ingot",
+			"station": "steam_macerator",
+			"inputs": [
+				{
+					"form": "ingot",
+					"n": 1
+				}
+			],
+			"outputs": [
+				{
+					"form": "dust",
+					"n": 1
+				}
+			],
+			"ticks": 100,
+			"eu": 2
+		},
+		{
+			"id": "steam_hammer_plate",
+			"station": "steam_forge_hammer",
+			"inputs": [
+				{
+					"form": "ingot",
+					"n": 3
+				}
+			],
+			"outputs": [
+				{
+					"form": "plate",
+					"n": 2
+				}
+			],
+			"ticks": 100,
+			"eu": 4
+		},
+		{
+			"id": "lv_macerate_ore",
+			"station": "lv_macerator",
+			"byproduct": true,
+			"inputs": [
+				{
+					"form": "ore",
+					"n": 1
+				}
+			],
+			"outputs": [
+				{
+					"form": "dust",
+					"n": 2
+				}
+			],
+			"ticks": 160,
+			"eu": 8
+		},
+		{
+			"id": "lv_macerate_ingot",
+			"station": "lv_macerator",
+			"inputs": [
+				{
+					"form": "ingot",
+					"n": 1
+				}
+			],
+			"outputs": [
+				{
+					"form": "dust",
+					"n": 1
+				}
+			],
+			"ticks": 80,
+			"eu": 8
+		},
+		{
+			"id": "lv_hammer_plate",
+			"station": "lv_forge_hammer",
+			"inputs": [
+				{
+					"form": "ingot",
+					"n": 1
+				}
+			],
+			"outputs": [
+				{
+					"form": "plate",
+					"n": 1
+				}
+			],
+			"ticks": 80,
+			"eu": 16
+		},
+		{
+			"id": "lv_wiremill",
+			"station": "lv_wiremill",
+			"inputs": [
+				{
+					"form": "ingot",
+					"n": 1
+				}
+			],
+			"outputs": [
+				{
+					"form": "wire",
+					"n": 2
+				}
+			],
+			"ticks": 100,
+			"eu": 8
+		},
+		{
+			"id": "lv_lathe_rod",
+			"station": "lv_wiremill",
+			"inputs": [
+				{
+					"form": "ingot",
+					"n": 1
+				}
+			],
+			"outputs": [
+				{
+					"form": "rod",
+					"n": 2
+				}
+			],
+			"ticks": 100,
+			"eu": 8
+		}
+	]
+}

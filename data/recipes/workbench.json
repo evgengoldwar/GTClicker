@@ -1,0 +1,1132 @@
+{
+	"recipes": [
+		{
+			"id": "wb_planks",
+			"station": "workbench",
+			"inputs": [
+				{
+					"item": "log",
+					"n": 1
+				}
+			],
+			"outputs": [
+				{
+					"item": "planks",
+					"n": 4
+				}
+			],
+			"ticks": 20,
+			"eu": 0
+		},
+		{
+			"id": "wb_sticks",
+			"station": "workbench",
+			"inputs": [
+				{
+					"item": "planks",
+					"n": 2
+				}
+			],
+			"outputs": [
+				{
+					"item": "stick",
+					"n": 4
+				}
+			],
+			"ticks": 10,
+			"eu": 0
+		},
+		{
+			"id": "wb_furnace",
+			"station": "workbench",
+			"inputs": [
+				{
+					"item": "cobblestone",
+					"n": 8
+				}
+			],
+			"outputs": [
+				{
+					"item": "furnace",
+					"n": 1
+				}
+			],
+			"ticks": 100,
+			"eu": 0
+		},
+		{
+			"id": "wb_coke_oven",
+			"station": "workbench",
+			"inputs": [
+				{
+					"item": "brick",
+					"n": 16
+				},
+				{
+					"item": "sand",
+					"n": 8
+				}
+			],
+			"outputs": [
+				{
+					"item": "coke_oven",
+					"n": 1
+				}
+			],
+			"ticks": 200,
+			"eu": 0
+		},
+		{
+			"id": "wb_wooden_collector",
+			"station": "workbench",
+			"inputs": [
+				{
+					"item": "planks",
+					"n": 16
+				},
+				{
+					"item": "stick",
+					"n": 8
+				},
+				{
+					"item": "log",
+					"n": 8
+				}
+			],
+			"outputs": [
+				{
+					"item": "wooden_collector",
+					"n": 1
+				}
+			],
+			"ticks": 200,
+			"eu": 0
+		},
+		{
+			"id": "wb_anvil",
+			"station": "workbench",
+			"inputs": [
+				{
+					"item": "copper_ingot",
+					"n": 6
+				},
+				{
+					"item": "cobblestone",
+					"n": 6
+				}
+			],
+			"outputs": [
+				{
+					"item": "anvil",
+					"n": 1
+				}
+			],
+			"ticks": 200,
+			"eu": 0
+		},
+		{
+			"id": "wb_bronze_dust",
+			"station": "workbench",
+			"inputs": [
+				{
+					"item": "copper_dust",
+					"n": 3
+				},
+				{
+					"item": "tin_dust",
+					"n": 1
+				}
+			],
+			"outputs": [
+				{
+					"item": "bronze_dust",
+					"n": 4
+				}
+			],
+			"ticks": 100,
+			"eu": 0
+		},
+		{
+			"id": "wb_bronze_casing",
+			"station": "workbench",
+			"inputs": [
+				{
+					"item": "bronze_plate",
+					"n": 6
+				},
+				{
+					"item": "brick",
+					"n": 2
+				}
+			],
+			"outputs": [
+				{
+					"item": "bronze_casing",
+					"n": 1
+				}
+			],
+			"ticks": 200,
+			"eu": 0
+		},
+		{
+			"id": "wb_steam_macerator",
+			"station": "workbench",
+			"inputs": [
+				{
+					"item": "bronze_casing",
+					"n": 1
+				},
+				{
+					"item": "flint",
+					"n": 4
+				},
+				{
+					"item": "bronze_plate",
+					"n": 2
+				}
+			],
+			"outputs": [
+				{
+					"item": "steam_macerator",
+					"n": 1
+				}
+			],
+			"ticks": 200,
+			"eu": 0
+		},
+		{
+			"id": "wb_steam_compressor",
+			"station": "workbench",
+			"inputs": [
+				{
+					"item": "bronze_casing",
+					"n": 1
+				},
+				{
+					"item": "bronze_plate",
+					"n": 4
+				},
+				{
+					"item": "cobblestone",
+					"n": 4
+				}
+			],
+			"outputs": [
+				{
+					"item": "steam_compressor",
+					"n": 1
+				}
+			],
+			"ticks": 200,
+			"eu": 0
+		},
+		{
+			"id": "wb_steam_extractor",
+			"station": "workbench",
+			"inputs": [
+				{
+					"item": "bronze_casing",
+					"n": 1
+				},
+				{
+					"item": "glass",
+					"n": 4
+				},
+				{
+					"item": "bronze_rod",
+					"n": 2
+				}
+			],
+			"outputs": [
+				{
+					"item": "steam_extractor",
+					"n": 1
+				}
+			],
+			"ticks": 200,
+			"eu": 0
+		},
+		{
+			"id": "wb_steam_forge_hammer",
+			"station": "workbench",
+			"inputs": [
+				{
+					"item": "bronze_casing",
+					"n": 1
+				},
+				{
+					"item": "bronze_ingot",
+					"n": 6
+				},
+				{
+					"item": "bronze_rod",
+					"n": 2
+				}
+			],
+			"outputs": [
+				{
+					"item": "steam_forge_hammer",
+					"n": 1
+				}
+			],
+			"ticks": 200,
+			"eu": 0
+		},
+		{
+			"id": "wb_coal_boiler",
+			"station": "workbench",
+			"inputs": [
+				{
+					"item": "bronze_plate",
+					"n": 5
+				},
+				{
+					"item": "brick",
+					"n": 4
+				}
+			],
+			"outputs": [
+				{
+					"item": "coal_boiler",
+					"n": 1
+				}
+			],
+			"ticks": 200,
+			"eu": 0
+		},
+		{
+			"id": "wb_solar_boiler",
+			"station": "workbench",
+			"inputs": [
+				{
+					"item": "glass",
+					"n": 4
+				},
+				{
+					"item": "bronze_plate",
+					"n": 3
+				},
+				{
+					"item": "copper_plate",
+					"n": 2
+				}
+			],
+			"outputs": [
+				{
+					"item": "solar_boiler",
+					"n": 1
+				}
+			],
+			"ticks": 200,
+			"eu": 0
+		},
+		{
+			"id": "wb_steam_drill",
+			"station": "workbench",
+			"inputs": [
+				{
+					"item": "bronze_casing",
+					"n": 1
+				},
+				{
+					"item": "bronze_rod",
+					"n": 4
+				},
+				{
+					"item": "flint",
+					"n": 4
+				}
+			],
+			"outputs": [
+				{
+					"item": "steam_drill",
+					"n": 1
+				}
+			],
+			"ticks": 200,
+			"eu": 0
+		},
+		{
+			"id": "wb_brick_blast_furnace",
+			"station": "workbench",
+			"inputs": [
+				{
+					"item": "firebrick",
+					"n": 24
+				},
+				{
+					"item": "copper_plate",
+					"n": 4
+				}
+			],
+			"outputs": [
+				{
+					"item": "brick_blast_furnace",
+					"n": 1
+				}
+			],
+			"ticks": 300,
+			"eu": 0
+		},
+		{
+			"id": "wb_tin_cable",
+			"station": "workbench",
+			"inputs": [
+				{
+					"item": "tin_wire",
+					"n": 1
+				},
+				{
+					"item": "rubber_plate",
+					"n": 1
+				}
+			],
+			"outputs": [
+				{
+					"item": "tin_cable",
+					"n": 1
+				}
+			],
+			"ticks": 100,
+			"eu": 0
+		},
+		{
+			"id": "wb_lv_hull",
+			"station": "workbench",
+			"inputs": [
+				{
+					"item": "wrought_iron_plate",
+					"n": 8
+				},
+				{
+					"item": "tin_cable",
+					"n": 2
+				}
+			],
+			"outputs": [
+				{
+					"item": "lv_hull",
+					"n": 1
+				}
+			],
+			"ticks": 200,
+			"eu": 0
+		},
+		{
+			"id": "wb_motor",
+			"station": "workbench",
+			"inputs": [
+				{
+					"item": "iron_rod",
+					"n": 2
+				},
+				{
+					"item": "copper_wire",
+					"n": 4
+				},
+				{
+					"item": "tin_cable",
+					"n": 2
+				}
+			],
+			"outputs": [
+				{
+					"item": "electric_motor",
+					"n": 1
+				}
+			],
+			"ticks": 200,
+			"eu": 0
+		},
+		{
+			"id": "wb_piston",
+			"station": "workbench",
+			"inputs": [
+				{
+					"item": "wrought_iron_plate",
+					"n": 3
+				},
+				{
+					"item": "wrought_iron_rod",
+					"n": 2
+				},
+				{
+					"item": "electric_motor",
+					"n": 1
+				},
+				{
+					"item": "tin_cable",
+					"n": 2
+				}
+			],
+			"outputs": [
+				{
+					"item": "electric_piston",
+					"n": 1
+				}
+			],
+			"ticks": 200,
+			"eu": 0
+		},
+		{
+			"id": "wb_vacuum_tube",
+			"station": "workbench",
+			"inputs": [
+				{
+					"item": "glass",
+					"n": 1
+				},
+				{
+					"item": "copper_wire",
+					"n": 2
+				}
+			],
+			"outputs": [
+				{
+					"item": "vacuum_tube",
+					"n": 1
+				}
+			],
+			"ticks": 100,
+			"eu": 0
+		},
+		{
+			"id": "wb_resistor",
+			"station": "workbench",
+			"inputs": [
+				{
+					"item": "coal_dust",
+					"n": 1
+				},
+				{
+					"item": "copper_wire",
+					"n": 1
+				},
+				{
+					"item": "sticky_resin",
+					"n": 1
+				}
+			],
+			"outputs": [
+				{
+					"item": "resistor",
+					"n": 2
+				}
+			],
+			"ticks": 100,
+			"eu": 0
+		},
+		{
+			"id": "wb_circuit_board",
+			"station": "workbench",
+			"inputs": [
+				{
+					"item": "planks",
+					"n": 1
+				},
+				{
+					"item": "copper_plate",
+					"n": 1
+				},
+				{
+					"item": "sticky_resin",
+					"n": 1
+				}
+			],
+			"outputs": [
+				{
+					"item": "circuit_board",
+					"n": 1
+				}
+			],
+			"ticks": 100,
+			"eu": 0
+		},
+		{
+			"id": "wb_lv_circuit",
+			"station": "workbench",
+			"inputs": [
+				{
+					"item": "circuit_board",
+					"n": 1
+				},
+				{
+					"item": "resistor",
+					"n": 2
+				},
+				{
+					"item": "vacuum_tube",
+					"n": 2
+				},
+				{
+					"item": "tin_cable",
+					"n": 2
+				}
+			],
+			"outputs": [
+				{
+					"item": "lv_circuit",
+					"n": 1
+				}
+			],
+			"ticks": 300,
+			"eu": 0
+		},
+		{
+			"id": "wb_lv_macerator",
+			"station": "workbench",
+			"inputs": [
+				{
+					"item": "lv_hull",
+					"n": 1
+				},
+				{
+					"item": "lv_circuit",
+					"n": 2
+				},
+				{
+					"item": "electric_motor",
+					"n": 2
+				},
+				{
+					"item": "flint",
+					"n": 4
+				}
+			],
+			"outputs": [
+				{
+					"item": "lv_macerator",
+					"n": 1
+				}
+			],
+			"ticks": 300,
+			"eu": 0
+		},
+		{
+			"id": "wb_lv_compressor",
+			"station": "workbench",
+			"inputs": [
+				{
+					"item": "lv_hull",
+					"n": 1
+				},
+				{
+					"item": "lv_circuit",
+					"n": 2
+				},
+				{
+					"item": "electric_piston",
+					"n": 2
+				},
+				{
+					"item": "tin_cable",
+					"n": 2
+				}
+			],
+			"outputs": [
+				{
+					"item": "lv_compressor",
+					"n": 1
+				}
+			],
+			"ticks": 300,
+			"eu": 0
+		},
+		{
+			"id": "wb_lv_extractor",
+			"station": "workbench",
+			"inputs": [
+				{
+					"item": "lv_hull",
+					"n": 1
+				},
+				{
+					"item": "lv_circuit",
+					"n": 2
+				},
+				{
+					"item": "electric_piston",
+					"n": 1
+				},
+				{
+					"item": "electric_motor",
+					"n": 1
+				},
+				{
+					"item": "glass",
+					"n": 2
+				}
+			],
+			"outputs": [
+				{
+					"item": "lv_extractor",
+					"n": 1
+				}
+			],
+			"ticks": 300,
+			"eu": 0
+		},
+		{
+			"id": "wb_lv_forge_hammer",
+			"station": "workbench",
+			"inputs": [
+				{
+					"item": "lv_hull",
+					"n": 1
+				},
+				{
+					"item": "lv_circuit",
+					"n": 2
+				},
+				{
+					"item": "electric_piston",
+					"n": 1
+				},
+				{
+					"item": "iron_plate",
+					"n": 4
+				}
+			],
+			"outputs": [
+				{
+					"item": "lv_forge_hammer",
+					"n": 1
+				}
+			],
+			"ticks": 300,
+			"eu": 0
+		},
+		{
+			"id": "wb_lv_wiremill",
+			"station": "workbench",
+			"inputs": [
+				{
+					"item": "lv_hull",
+					"n": 1
+				},
+				{
+					"item": "lv_circuit",
+					"n": 2
+				},
+				{
+					"item": "electric_motor",
+					"n": 4
+				}
+			],
+			"outputs": [
+				{
+					"item": "lv_wiremill",
+					"n": 1
+				}
+			],
+			"ticks": 300,
+			"eu": 0
+		},
+		{
+			"id": "wb_lv_alloy_smelter",
+			"station": "workbench",
+			"inputs": [
+				{
+					"item": "lv_hull",
+					"n": 1
+				},
+				{
+					"item": "lv_circuit",
+					"n": 2
+				},
+				{
+					"item": "copper_wire",
+					"n": 8
+				},
+				{
+					"item": "tin_cable",
+					"n": 2
+				}
+			],
+			"outputs": [
+				{
+					"item": "lv_alloy_smelter",
+					"n": 1
+				}
+			],
+			"ticks": 300,
+			"eu": 0
+		},
+		{
+			"id": "wb_lv_assembler",
+			"station": "workbench",
+			"inputs": [
+				{
+					"item": "lv_hull",
+					"n": 1
+				},
+				{
+					"item": "lv_circuit",
+					"n": 2
+				},
+				{
+					"item": "electric_motor",
+					"n": 1
+				},
+				{
+					"item": "electric_piston",
+					"n": 1
+				},
+				{
+					"item": "tin_cable",
+					"n": 2
+				}
+			],
+			"outputs": [
+				{
+					"item": "lv_assembler",
+					"n": 1
+				}
+			],
+			"ticks": 300,
+			"eu": 0
+		},
+		{
+			"id": "wb_lv_centrifuge",
+			"station": "workbench",
+			"inputs": [
+				{
+					"item": "lv_hull",
+					"n": 1
+				},
+				{
+					"item": "lv_circuit",
+					"n": 2
+				},
+				{
+					"item": "electric_motor",
+					"n": 2
+				},
+				{
+					"item": "tin_cable",
+					"n": 2
+				}
+			],
+			"outputs": [
+				{
+					"item": "lv_centrifuge",
+					"n": 1
+				}
+			],
+			"ticks": 300,
+			"eu": 0
+		},
+		{
+			"id": "wb_lv_electrolyzer",
+			"station": "workbench",
+			"inputs": [
+				{
+					"item": "lv_hull",
+					"n": 1
+				},
+				{
+					"item": "lv_circuit",
+					"n": 2
+				},
+				{
+					"item": "copper_wire",
+					"n": 4
+				},
+				{
+					"item": "glass",
+					"n": 4
+				},
+				{
+					"item": "tin_cable",
+					"n": 2
+				}
+			],
+			"outputs": [
+				{
+					"item": "lv_electrolyzer",
+					"n": 1
+				}
+			],
+			"ticks": 300,
+			"eu": 0
+		},
+		{
+			"id": "wb_steam_turbine",
+			"station": "workbench",
+			"inputs": [
+				{
+					"item": "lv_hull",
+					"n": 1
+				},
+				{
+					"item": "electric_motor",
+					"n": 2
+				},
+				{
+					"item": "bronze_plate",
+					"n": 4
+				},
+				{
+					"item": "lv_circuit",
+					"n": 1
+				}
+			],
+			"outputs": [
+				{
+					"item": "steam_turbine_lv",
+					"n": 1
+				}
+			],
+			"ticks": 300,
+			"eu": 0
+		},
+		{
+			"id": "wb_combustion_gen",
+			"station": "workbench",
+			"inputs": [
+				{
+					"item": "lv_hull",
+					"n": 1
+				},
+				{
+					"item": "electric_motor",
+					"n": 2
+				},
+				{
+					"item": "electric_piston",
+					"n": 2
+				},
+				{
+					"item": "lv_circuit",
+					"n": 1
+				}
+			],
+			"outputs": [
+				{
+					"item": "combustion_gen_lv",
+					"n": 1
+				}
+			],
+			"ticks": 300,
+			"eu": 0
+		},
+		{
+			"id": "wb_battery_lv",
+			"station": "workbench",
+			"inputs": [
+				{
+					"item": "tin_plate",
+					"n": 2
+				},
+				{
+					"item": "tin_cable",
+					"n": 1
+				},
+				{
+					"item": "coal_dust",
+					"n": 2
+				}
+			],
+			"outputs": [
+				{
+					"item": "battery_lv",
+					"n": 1
+				}
+			],
+			"ticks": 100,
+			"eu": 0
+		},
+		{
+			"id": "wb_battery_buffer",
+			"station": "workbench",
+			"inputs": [
+				{
+					"item": "lv_hull",
+					"n": 1
+				},
+				{
+					"item": "battery_lv",
+					"n": 4
+				},
+				{
+					"item": "tin_cable",
+					"n": 4
+				}
+			],
+			"outputs": [
+				{
+					"item": "battery_buffer_lv",
+					"n": 1
+				}
+			],
+			"ticks": 300,
+			"eu": 0
+		},
+		{
+			"id": "wb_lv_drill",
+			"station": "workbench",
+			"inputs": [
+				{
+					"item": "lv_hull",
+					"n": 1
+				},
+				{
+					"item": "electric_motor",
+					"n": 2
+				},
+				{
+					"item": "lv_circuit",
+					"n": 1
+				},
+				{
+					"item": "wrought_iron_rod",
+					"n": 4
+				}
+			],
+			"outputs": [
+				{
+					"item": "lv_drill",
+					"n": 1
+				}
+			],
+			"ticks": 300,
+			"eu": 0
+		},
+		{
+			"id": "wb_heatproof_casing",
+			"station": "workbench",
+			"inputs": [
+				{
+					"item": "wrought_iron_plate",
+					"n": 6
+				},
+				{
+					"item": "firebrick",
+					"n": 2
+				}
+			],
+			"outputs": [
+				{
+					"item": "heatproof_casing",
+					"n": 1
+				}
+			],
+			"ticks": 200,
+			"eu": 0
+		},
+		{
+			"id": "wb_cupronickel_coil",
+			"station": "workbench",
+			"inputs": [
+				{
+					"item": "cupronickel_wire",
+					"n": 4
+				},
+				{
+					"item": "firebrick",
+					"n": 1
+				}
+			],
+			"outputs": [
+				{
+					"item": "cupronickel_coil",
+					"n": 1
+				}
+			],
+			"ticks": 200,
+			"eu": 0
+		},
+		{
+			"id": "wb_input_bus",
+			"station": "workbench",
+			"inputs": [
+				{
+					"item": "heatproof_casing",
+					"n": 1
+				},
+				{
+					"item": "tin_cable",
+					"n": 2
+				}
+			],
+			"outputs": [
+				{
+					"item": "lv_input_bus",
+					"n": 1
+				}
+			],
+			"ticks": 200,
+			"eu": 0
+		},
+		{
+			"id": "wb_output_bus",
+			"station": "workbench",
+			"inputs": [
+				{
+					"item": "heatproof_casing",
+					"n": 1
+				},
+				{
+					"item": "tin_cable",
+					"n": 2
+				}
+			],
+			"outputs": [
+				{
+					"item": "lv_output_bus",
+					"n": 1
+				}
+			],
+			"ticks": 200,
+			"eu": 0
+		},
+		{
+			"id": "wb_energy_hatch",
+			"station": "workbench",
+			"inputs": [
+				{
+					"item": "lv_hull",
+					"n": 1
+				},
+				{
+					"item": "tin_cable",
+					"n": 4
+				}
+			],
+			"outputs": [
+				{
+					"item": "lv_energy_hatch",
+					"n": 1
+				}
+			],
+			"ticks": 200,
+			"eu": 0
+		},
+		{
+			"id": "wb_ebf_controller",
+			"station": "workbench",
+			"inputs": [
+				{
+					"item": "heatproof_casing",
+					"n": 1
+				},
+				{
+					"item": "lv_circuit",
+					"n": 3
+				},
+				{
+					"item": "tin_cable",
+					"n": 4
+				}
+			],
+			"outputs": [
+				{
+					"item": "ebf_controller",
+					"n": 1
+				}
+			],
+			"ticks": 300,
+			"eu": 0
+		}
+	]
+}

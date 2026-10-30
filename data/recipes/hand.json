@@ -1,0 +1,58 @@
+{
+	"recipes": [
+		{
+			"id": "hand_planks",
+			"station": "hand",
+			"inputs": [
+				{
+					"item": "log",
+					"n": 1
+				}
+			],
+			"outputs": [
+				{
+					"item": "planks",
+					"n": 2
+				}
+			],
+			"ticks": 30,
+			"eu": 0
+		},
+		{
+			"id": "hand_sticks",
+			"station": "hand",
+			"inputs": [
+				{
+					"item": "planks",
+					"n": 2
+				}
+			],
+			"outputs": [
+				{
+					"item": "stick",
+					"n": 2
+				}
+			],
+			"ticks": 20,
+			"eu": 0
+		},
+		{
+			"id": "hand_workbench",
+			"station": "hand",
+			"inputs": [
+				{
+					"item": "planks",
+					"n": 4
+				}
+			],
+			"outputs": [
+				{
+					"item": "workbench",
+					"n": 1
+				}
+			],
+			"ticks": 60,
+			"eu": 0
+		}
+	]
+}
